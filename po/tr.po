@@ -1,0 +1,1222 @@
+# Turkish translation for simple-scan
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the simple-scan package.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2017.
+# Muhammet Kara <muhammetk@gnome.org>, 2017, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: simple-scan\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/simple-scan/issues\n"
+"POT-Creation-Date: 2018-07-01 04:06+0000\n"
+"PO-Revision-Date: 2018-08-06 10:24+0300\n"
+"Last-Translator: Muhammet Kara <muhammetk@gnome.org>\n"
+"Language-Team: Turkish <gnome-turk@gnome.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-04-25 06:10+0000\n"
+"X-Generator: Gtranslator 2.91.7\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: data/org.gnome.SimpleScan.gschema.xml:11
+msgid "Device to scan from"
+msgstr "Tarama yapılacak aygıt"
+
+#: data/org.gnome.SimpleScan.gschema.xml:12
+msgid "SANE device to acquire images from."
+msgstr "Görüntülerin alınacağı SANE aygıtı"
+
+#: data/org.gnome.SimpleScan.gschema.xml:20
+msgid "Type of document being scanned"
+msgstr "Taranacak belgenin türü"
+
+#: data/org.gnome.SimpleScan.gschema.xml:21
+msgid ""
+"Type of document being scanned. This setting decides on the scan resolution, "
+"colors and post-processing."
+msgstr ""
+"Taranacak belgenin türü. Bu ayar tarama niteliği, renkler ve rötuşa göre "
+"belirlenir."
+
+#: data/org.gnome.SimpleScan.gschema.xml:25
+msgid "Width of paper in tenths of a mm"
+msgstr "Ondabirlik mm türünden kağıdın genişliği"
+
+#: data/org.gnome.SimpleScan.gschema.xml:26
+msgid ""
+"The width of the paper in tenths of a mm (or 0 for automatic paper "
+"detection)."
+msgstr ""
+"Ondabirlik mm türünden kağıdın genişliği (ya da kendiliğinden kağıt sezimi "
+"için 0)."
+
+#: data/org.gnome.SimpleScan.gschema.xml:30
+msgid "Height of paper in tenths of a mm"
+msgstr "Ondabirlik mm türünden kağıdın yüksekliği"
+
+#: data/org.gnome.SimpleScan.gschema.xml:31
+msgid ""
+"The height of the paper in tenths of a mm (or 0 for automatic paper "
+"detection)."
+msgstr ""
+"Ondabirlik mm türünden kağıdın yüksekliği (ya da kendiliğinden kağıt sezimi "
+"için 0)."
+
+#: data/org.gnome.SimpleScan.gschema.xml:35
+msgid "Brightness of scan"
+msgstr "Tarama parlaklığı"
+
+#: data/org.gnome.SimpleScan.gschema.xml:36
+msgid "The brightness adjustment from -100 to 100 (0 being none)."
+msgstr "-100ʼden 100ʼe (0 hiçbiri) parlaklık ayarlaması."
+
+#: data/org.gnome.SimpleScan.gschema.xml:40
+msgid "Contrast of scan"
+msgstr "Tarama karşıtlığı"
+
+#: data/org.gnome.SimpleScan.gschema.xml:41
+msgid "The contrast adjustment from -100 to 100 (0 being none)."
+msgstr "-100ʼden 100ʼe (0 hiçbiri) karşıtlık ayarlaması"
+
+#: data/org.gnome.SimpleScan.gschema.xml:45
+msgid "Resolution for text scans"
+msgstr "Metin taramaları için çözünürlük"
+
+#: data/org.gnome.SimpleScan.gschema.xml:46
+msgid "The resolution in dots-per-inch to use when scanning text."
+msgstr ""
+"Metin tararken kullanılacak inç başına nokta sayısı türünden çözünürlük."
+
+#: data/org.gnome.SimpleScan.gschema.xml:50
+msgid "Resolution for photo scans"
+msgstr "Fotoğraf taramaları için çözünürlük"
+
+#: data/org.gnome.SimpleScan.gschema.xml:51
+msgid "The resolution in dots-per-inch to use when scanning photos."
+msgstr ""
+"Fotoğrafları tararken kullanılacak inç başına nokta sayısı türünden "
+"çözünürlük."
+
+#: data/org.gnome.SimpleScan.gschema.xml:55
+msgid "Page side to scan"
+msgstr "Taranacak sayfa yüzü"
+
+#: data/org.gnome.SimpleScan.gschema.xml:56
+msgid "The page side to scan."
+msgstr "Taranacak sayfa yüzü."
+
+#: data/org.gnome.SimpleScan.gschema.xml:60
+msgid "Directory to save files to"
+msgstr "Dosyaların kaydedileceği dizin"
+
+#: data/org.gnome.SimpleScan.gschema.xml:61
+msgid ""
+"The directory to save files to. Defaults to the documents directory if unset."
+msgstr ""
+"Dosyaların kaydedileceği dizin. Ayarlanmadıysa, belgeler dizini "
+"varsayılandır."
+
+#: data/org.gnome.SimpleScan.gschema.xml:66
+msgid "Quality value to use for JPEG compression"
+msgstr "JPEG sıkıştırması için kalite değeri"
+
+#: data/org.gnome.SimpleScan.gschema.xml:67
+msgid "Quality value to use for JPEG compression."
+msgstr "JPEG sıkıştırması için kalite değeri"
+
+#: data/org.gnome.SimpleScan.gschema.xml:72
+msgid "Delay in millisecond between pages"
+msgstr "Sayfalar arasındaki gecikmenin milisaniye türünden değeri"
+
+#: data/org.gnome.SimpleScan.gschema.xml:73
+msgid "Delay in millisecond between pages."
+msgstr "Sayfalar arasındaki gecikmenin milisaniye türünden değeri."
+
+#. Title of scan window
+#. Set HeaderBar title here because Glade doesn't keep it translated
+#. https://bugzilla.gnome.org/show_bug.cgi?id=782753
+#. Title of scan window
+#: data/simple-scan.appdata.xml.in:6 data/simple-scan.desktop.in:3
+#: src/app-window.ui:76 src/app-window.vala:1571
+msgid "Simple Scan"
+msgstr "Basit Tarama"
+
+#: data/simple-scan.appdata.xml.in:7 data/simple-scan.desktop.in:5
+msgid "Scan Documents"
+msgstr "Belgeleri Tara"
+
+#: data/simple-scan.appdata.xml.in:9
+msgid ""
+"A really easy way to scan both documents and photos. You can crop out the "
+"bad parts of a photo and rotate it if it is the wrong way round. You can "
+"print your scans, export them to pdf, or save them in a range of image "
+"formats."
+msgstr ""
+"Hem belge hem fotoğraf taramanın çok kolay bir yolu. Bir fotoğrafın kötü "
+"tarafını kırpabilir ve eğer yanlış yönde ise onu döndürebilirsiniz. "
+"Taramalarınızı yazdırabilir, pdfʼye aktarabilir veya resim biçimlerinde "
+"kaydedebilirsiniz."
+
+#: data/simple-scan.appdata.xml.in:14
+msgid "Simple Scan uses the SANE framework to support most existing scanners."
+msgstr ""
+"Basit Tarama mevcut birçok tarayıcı desteği için SANE altyapısını kullanır."
+
+#: data/simple-scan.desktop.in:4
+msgid "Document Scanner"
+msgstr "Belge Tarayıcı"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/simple-scan.desktop.in:7
+msgid "scan;scanner;flatbed;adf;"
+msgstr "tara;tarayıcı;flatbed;düz yatak;adf;"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: data/simple-scan.desktop.in:10
+msgid "scanner"
+msgstr "scanner"
+
+#. Toolbar scan menu item to scan a single page from the scanner
+#. Scan menu item to scan a single page from the scanner
+#. Toolbar scan menu item to scan a single page from the scanner
+#: src/app-window.ui:22 src/app-window.ui:123 src/app-window.ui:831
+msgid "Single _Page"
+msgstr "Tek _Sayfa"
+
+#. Toolbar scan menu item to scan all pages from a document feeder
+#. Scan menu item to scan all pages from a document feeder
+#. Toolbar scan menu item to scan all pages from a document feeder
+#: src/app-window.ui:31 src/app-window.ui:133 src/app-window.ui:840
+msgid "All Pages From _Feeder"
+msgstr "_Kaynaktaki Tüm Sayfalar"
+
+#. Toolbar scan menu item to scan continuously from the flatbed
+#. Scan menu item to scan continuously from the flatbed
+#. Toolbar scan menu item to scan continuously from the flatbed
+#: src/app-window.ui:40 src/app-window.ui:143 src/app-window.ui:849
+msgid "_Multiple Pages From Flatbed"
+msgstr "Düz Yataktan _Çoklu Sayfa"
+
+#: src/app-window.ui:55 src/app-window.ui:170 src/app-window.ui:864
+msgid "Text"
+msgstr "Metin"
+
+#: src/app-window.ui:65 src/app-window.ui:180 src/app-window.ui:874
+msgid "Photo"
+msgstr "Fotoğraf"
+
+#. Label on document menu (contains actions for this document, e.g. save, print)
+#: src/app-window.ui:91
+msgid "_Document"
+msgstr "_Belge"
+
+#. Scan menu item
+#: src/app-window.ui:110
+msgid "Sc_an"
+msgstr "T_ara"
+
+#. Menu entry to stop current scan
+#: src/app-window.ui:154
+msgid "_Stop Scan"
+msgstr "_Taramayı Durdur"
+
+#. Menu item to reorder pages
+#. Title of dialog to reorder pages
+#: src/app-window.ui:196 src/app-window.vala:978 src/app-window.vala:1586
+msgid "Reorder Pages"
+msgstr "Sayfaları Yeniden Sırala"
+
+#. Label on email menu item
+#: src/app-window.ui:215
+msgid "_Email"
+msgstr "_E-posta"
+
+#. Page menu (contains action for each page, e.g. delete, crop)
+#: src/app-window.ui:280
+msgid "_Page"
+msgstr "_Sayfa"
+
+#. Menu item to rotate page to left (anti-clockwise)
+#: src/app-window.ui:290
+msgid "Rotate _Left"
+msgstr "_Sola Döndür"
+
+#. Menu item to rotate page to right (clockwise)
+#: src/app-window.ui:300
+msgid "Rotate _Right"
+msgstr "Sa_ğa Döndür"
+
+#. Label for page crop submenu
+#: src/app-window.ui:310
+msgid "_Crop"
+msgstr "_Kırp"
+
+#. Radio button for no crop
+#: src/app-window.ui:320
+msgid "_None"
+msgstr "_Hiçbiri"
+
+#. Radio button for cropping page to A4 size
+#: src/app-window.ui:331
+msgid "A_4"
+msgstr "A_4"
+
+#. Radio button for cropping page to A5 size
+#: src/app-window.ui:342
+msgid "A_5"
+msgstr "A_5"
+
+#. Radio button for cropping page to A6 size
+#: src/app-window.ui:353
+msgid "A_6"
+msgstr "A_6"
+
+#. Radio button for cropping page to US letter size
+#: src/app-window.ui:364
+msgid "_Letter"
+msgstr "_Harf"
+
+#. Radio button for cropping to page to US legal size
+#: src/app-window.ui:375
+msgid "Le_gal"
+msgstr "Ya_sal"
+
+#. Radio button for cropping page to 4x6 inch
+#: src/app-window.ui:386
+msgid "4×6"
+msgstr "4×6"
+
+#. Radio button for cropping page to A3
+#: src/app-window.ui:397
+#| msgid "A_4"
+msgid "A_3"
+msgstr "A_3"
+
+#. Radio button for cropping to custom page size
+#: src/app-window.ui:408
+msgid "_Custom"
+msgstr "_Özel"
+
+#. Menu item to rotate the crop area
+#: src/app-window.ui:426
+msgid "_Rotate Crop"
+msgstr "_Kırpmayı Döndür"
+
+#. Menu item to move the selected page to the left
+#: src/app-window.ui:439
+msgid "Move Left"
+msgstr "Sola Taşı"
+
+#. Menu item to move the selected page to the right
+#: src/app-window.ui:448
+msgid "Move Right"
+msgstr "Sağa Taşı"
+
+#. Label on help menu
+#: src/app-window.ui:485
+msgid "_Help"
+msgstr "_Yardım"
+
+#. Help|Contents menu
+#: src/app-window.ui:493
+msgid "_Contents"
+msgstr "_İçindekiler"
+
+#. Tooltip for scan toolbar button
+#: src/app-window.ui:531 src/app-window.ui:731
+msgid "Scan a single page from the scanner"
+msgstr "Tarayıcıdan tek bir sayfa tara"
+
+#. Label on scan toolbar item
+#: src/app-window.ui:533 src/app-window.ui:727
+msgid "Scan"
+msgstr "Tara"
+
+#. Tooltip for save toolbar button
+#: src/app-window.ui:549 src/app-window.ui:798
+msgid "Save document to a file"
+msgstr "Belgeyi bir dosyaya kaydet"
+
+#: src/app-window.ui:551
+msgid "Save"
+msgstr "Kaydet"
+
+#. Tooltip for stop button
+#: src/app-window.ui:566 src/app-window.ui:711
+msgid "Stop the current scan"
+msgstr "Geçerli taramayı durdur"
+
+#: src/app-window.ui:567 src/app-window.ui:708
+msgid "Stop"
+msgstr "Durdur"
+
+#. Label shown when searching for scanners
+#: src/app-window.ui:622
+msgid "Searching for Scanners…"
+msgstr "Tarayıcılar aranıyor…"
+
+#: src/app-window.vala:239 src/app-window.vala:1391
+msgid "_Close"
+msgstr "_Kapat"
+
+#. Label in authorization dialog.  “%s” is replaced with the name of the resource requesting authorization
+#: src/app-window.vala:248
+#, c-format
+msgid "Username and password required to access “%s”"
+msgstr "“%s” kaynağına erişmek için kullanıcı adı ve parola gerekiyor"
+
+#. Label shown when detected a scanner
+#: src/app-window.vala:268 src/app-window.vala:586
+msgid "Ready to Scan"
+msgstr "Taramaya hazır"
+
+#. Warning displayed when no drivers are installed but a compatible scanner is detected
+#: src/app-window.vala:275
+msgid "Additional software needed"
+msgstr "Ek yazılım gerekiyor"
+
+#. Instructions to install driver software
+#: src/app-window.vala:277
+msgid ""
+"You need to <a href=\"install-firmware\">install driver software</a> for "
+"your scanner."
+msgstr ""
+"Tarayıcınız için <a href=\"install-firmware\">sürücü yazılımını kurmanız</a> "
+"gerekir."
+
+#. Warning displayed when no scanners are detected
+#: src/app-window.vala:283
+msgid "No scanners detected"
+msgstr "Tarayıcı bulunamadı"
+
+#. Hint to user on why there are no scanners detected
+#: src/app-window.vala:285
+msgid "Please check your scanner is connected and powered on"
+msgstr "Lütfen tarayıcınızın bağlı ve açık olduğundan emin olun"
+
+#. Save dialog: Dialog title
+#: src/app-window.vala:300
+msgid "Save As…"
+msgstr "Farklı Kaydet…"
+
+#: src/app-window.vala:303 src/app-window.vala:473 src/app-window.vala:554
+msgid "_Cancel"
+msgstr "_Vazgeç"
+
+#: src/app-window.vala:304 src/app-window.vala:555
+msgid "_Save"
+msgstr "_Kaydet"
+
+#. Default filename to use when saving document
+#: src/app-window.vala:312
+msgid "Scanned Document.pdf"
+msgstr "Taranan Belge.pdf"
+
+#. Save dialog: Filter name to show only supported image files
+#: src/app-window.vala:318
+msgid "Image Files"
+msgstr "Resim Dosyaları"
+
+#. Save dialog: Filter name to show all files
+#: src/app-window.vala:328
+msgid "All Files"
+msgstr "Tüm Dosyalar"
+
+#. Save dialog: Label for saving in PDF format
+#: src/app-window.vala:337
+msgid "PDF (multi-page document)"
+msgstr "PDF (çok sayfalı belge)"
+
+#. Save dialog: Label for saving in JPEG format
+#: src/app-window.vala:343
+msgid "JPEG (compressed)"
+msgstr "JPEG (sıkıştırılmış)"
+
+#. Save dialog: Label for saving in PNG format
+#: src/app-window.vala:349
+msgid "PNG (lossless)"
+msgstr "PNG (kayıpsız)"
+
+#. Save dialog: Label for sabing in WEBP format
+#: src/app-window.vala:356
+msgid "WebP (compressed)"
+msgstr "WebP (sıkıştırılmış)"
+
+#. Label in save dialog beside combo box to choose file format (PDF, JPEG, PNG, WEBP)
+#: src/app-window.vala:366
+msgid "File format:"
+msgstr "Dosya biçimi:"
+
+#. Label in save dialog beside compression slider
+#: src/app-window.vala:378
+msgid "Compression:"
+msgstr "Sıkıştırma:"
+
+#. Contents of dialog that shows if saving would overwrite and existing file. %s is replaced with the name of the file.
+#: src/app-window.vala:472
+#, c-format
+msgid "A file named “%s” already exists.  Do you want to replace it?"
+msgstr "“%s” adında bir dosya zaten var.  Değiştirmek ister misiniz?"
+
+#. Button in dialog that shows if saving would overwrite and existing file. Clicking the button allows simple-scan to overwrite the file.
+#: src/app-window.vala:475
+msgid "_Replace"
+msgstr "_Değiştir"
+
+#: src/app-window.vala:514
+msgid "Saving"
+msgstr "Kaydediliyor"
+
+#. Title of error dialog when save failed
+#: src/app-window.vala:529
+msgid "Failed to save file"
+msgstr "Dosya kaydedilemedi"
+
+#. Text in dialog warning when a document is about to be lost
+#: src/app-window.vala:552
+msgid "If you don’t save, changes will be permanently lost."
+msgstr "Eğer kaydetmezseniz, değişiklikler kalıcı olarak kaybedilecek."
+
+#. Text in dialog warning when a document is about to be lost
+#: src/app-window.vala:593
+msgid "Save current document?"
+msgstr "Geçerli belgeyi kaydet?"
+
+#. Button in dialog to create new document and discard unsaved document
+#: src/app-window.vala:595
+msgid "Discard Changes"
+msgstr "Değişiklikleri Geri Al"
+
+#. Label shown when scan started
+#: src/app-window.vala:694
+msgid "Contacting scanner…"
+msgstr "Tarayıcıyla iletişim kuruluyor…"
+
+#. Error message display when unable to save image for preview
+#: src/app-window.vala:804
+msgid "Unable to save image for preview"
+msgstr "Görüntü, ön izleme için kaydedilemiyor"
+
+#. Error message display when unable to preview image
+#: src/app-window.vala:816
+msgid "Unable to open image preview application"
+msgstr "Görüntü ön izleme uygulaması açılamıyor"
+
+#. Label on button for combining sides in reordering dialog
+#: src/app-window.vala:1001
+msgid "Combine sides"
+msgstr "Yüzleri birleştir"
+
+#. Label on button for combining sides in reverse order in reordering dialog
+#: src/app-window.vala:1011
+msgid "Combine sides (reverse)"
+msgstr "Yüzleri birleştir (ters)"
+
+#. Label on button for reversing in reordering dialog
+#: src/app-window.vala:1021
+msgid "Reverse"
+msgstr "Tersine çevir"
+
+#. Label on button for cancelling page reordering dialog
+#: src/app-window.vala:1031
+msgid "Keep unchanged"
+msgstr "Değiştirmeden bırak"
+
+#. Error message displayed when unable to launch help browser
+#: src/app-window.vala:1261
+msgid "Unable to open help file"
+msgstr "Yardım dosyası açılamıyor"
+
+#. The license this software is under (GPL3+)
+#: src/app-window.vala:1282
+msgid ""
+"This program is free software: you can redistribute it and/or modify\n"
+"it under the terms of the GNU General Public License as published by\n"
+"the Free Software Foundation, either version 3 of the License, or\n"
+"(at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program.  If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"Bu program özgür yazılımdır: Yeniden dağıtabilir ve/veya Özgür Yazılım Vakfı "
+"tarafından yayınlanmış 3. sürüm lisans veya isterseniz herhangi sonraki "
+"sürüm ile GNU Genel Kamu Lisansı sözleşmesi altında düzenleyebilirsiniz.\n"
+"\n"
+"Bu program HERHANGİ GARANTİSİ OLMAKSIZIN; hatta TİCARETE UYGUNLUK veya BELLİ "
+"BİR AMACA UYGUNLUK garantisi bile olmaksızın, kullanışlı olması umularak "
+"dağıtıldı.\n"
+"Daha fazla bilgi için GNU Genel Kamu Lisansıʼna bakın.\n"
+"\n"
+"Bu program ile birlikte GNU Genel Kamu Lisansıʼnın bir kopyasını almış "
+"olmalısınız.\n"
+"Eğer almadıysanız bile şuraya bakınız: <http://www.gnu.org/licenses/>"
+
+#. Title of about dialog
+#: src/app-window.vala:1285
+msgid "About Simple Scan"
+msgstr "Basit Tarama Hakkında"
+
+#. Description of program
+#: src/app-window.vala:1288
+msgid "Simple document scanning tool"
+msgstr "Basit bir belge tarama aracı"
+
+#: src/app-window.vala:1297
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Angel Spy https://launchpad.net/~dilara.ekinci\n"
+"  Butterfly https://launchpad.net/~kelebek333\n"
+"  Cihan Ersoy https://launchpad.net/~cihan.ersoy\n"
+"  Efe Çiftci https://launchpad.net/~efeciftci\n"
+"  Erkut Tiryakioglu https://launchpad.net/~erkut-tiryakioglu\n"
+"  Fatih Bostancı https://launchpad.net/~fbostanci\n"
+"  Hasan Yılmaz https://launchpad.net/~hasanyilmaz\n"
+"  Kaan Y. https://launchpad.net/~mr-kxyzup\n"
+"  Mesut Muhammet Şahin https://launchpad.net/~messah\n"
+"  Murat Bişkin https://launchpad.net/~muratbiskin\n"
+"  Mustafa Yılmaz https://launchpad.net/~apshalasha\n"
+"  Nurullah Isırgan https://launchpad.net/~nurullahrt\n"
+"  Robert Ancell https://launchpad.net/~robert-ancell\n"
+"  Volkan Gezer https://launchpad.net/~volkangezer\n"
+"  Yalçın Can https://launchpad.net/~yalcin.can\n"
+"  aries https://launchpad.net/~sonagirbas\n"
+"  kulkke https://launchpad.net/~kulkke\n"
+"  mandza https://launchpad.net/~filmovi\n"
+"  ubuntuki https://launchpad.net/~aleverzurumlu\n"
+"  İbrahim Çelik https://launchpad.net/~ibrahimcelik89\n"
+"\n"
+"GNOME Türkiye Çeviri Takımı:\n"
+"  Emin Tufan Çetin <etcetin@gmail.com>"
+
+#. Text in dialog warning when a document is about to be lost
+#: src/app-window.vala:1319
+msgid "Save document before quitting?"
+msgstr "Çıkmadan önce belgeyi kaydet?"
+
+#. Text in dialog warning when a document is about to be lost
+#: src/app-window.vala:1321
+msgid "Quit without Saving"
+msgstr "Kaydetmeden Çık"
+
+#. Message to indicate a Brother scanner has been detected
+#: src/app-window.vala:1368
+msgid "You appear to have a Brother scanner."
+msgstr "Bir Brother tarayıcınız olduğu görünüyor."
+
+#. Instructions on how to install Brother scanner drivers
+#: src/app-window.vala:1370
+msgid ""
+"Drivers for this are available on the <a href=\"http://support.brother.com"
+"\">Brother website</a>."
+msgstr ""
+"Bunun sürücüleri <a href=\"http://support.brother.com\">Brother web "
+"sitesinde</a> bulunabilir."
+
+#. Message to indicate a Samsung scanner has been detected
+#: src/app-window.vala:1374
+msgid "You appear to have a Samsung scanner."
+msgstr "Bir Samsung tarayıcınız olduğu görünüyor."
+
+#. Instructions on how to install Samsung scanner drivers
+#: src/app-window.vala:1376
+msgid ""
+"Drivers for this are available on the <a href=\"http://samsung.com/support"
+"\">Samsung website</a>."
+msgstr ""
+"Bunun sürücüleri <a href=\"http://samsung.com/support\">Samsung web "
+"sitesinde</a> bulunabilir."
+
+#. Message to indicate a HP scanner has been detected
+#: src/app-window.vala:1380
+msgid "You appear to have an HP scanner."
+msgstr "Bir HP tarayıcınız olduğu görünüyor."
+
+#. Message to indicate an Epson scanner has been detected
+#: src/app-window.vala:1385
+msgid "You appear to have an Epson scanner."
+msgstr "Bir Epson tarayıcınız olduğu görünüyor."
+
+#. Instructions on how to install Epson scanner drivers
+#: src/app-window.vala:1387
+msgid ""
+"Drivers for this are available on the <a href=\"http://support.epson.com"
+"\">Epson website</a>."
+msgstr ""
+"Bunun sürücüleri <a href=\"http://samsung.com/support\">Epson web sitesinde</"
+"a> bulunabilir."
+
+#. Title of dialog giving instructions on how to install drivers
+#: src/app-window.vala:1391
+msgid "Install drivers"
+msgstr "Sürücüleri kur"
+
+#. Message in driver install dialog
+#: src/app-window.vala:1422
+msgid "Once installed you will need to restart Simple Scan."
+msgstr "Yükledikten sonra Basit Taramaʼyı yeniden başlatmanız gerekiyor."
+
+#. Label shown while installing drivers
+#: src/app-window.vala:1434
+msgid "Installing drivers…"
+msgstr "Sürücüler kuruluyor…"
+
+#. Label shown once drivers successfully installed
+#: src/app-window.vala:1442
+msgid "Drivers installed successfully!"
+msgstr "Sürücüler başarıyla kuruldu!"
+
+#. Label shown if failed to install drivers
+#: src/app-window.vala:1452
+#, c-format
+msgid "Failed to install drivers (error code %d)."
+msgstr "Sürücülerin kurulumu başarısız oldu (hata kodu %d)."
+
+#. Label shown if failed to install drivers
+#: src/app-window.vala:1458
+msgid "Failed to install drivers."
+msgstr "Sürücülerin kurulumu başarısız oldu."
+
+#. Label shown to prompt user to install packages (when PackageKit not available)
+#: src/app-window.vala:1465
+#, c-format
+msgid "You need to install the %s package."
+msgid_plural "You need to install the %s packages."
+msgstr[0] "%s paket kurmanız gerekiyor."
+
+#: src/app-window.vala:1585
+msgid "Email"
+msgstr "E-posta"
+
+#. Title of preferences dialog
+#: src/app-window.vala:1589 src/preferences-dialog.ui:53
+msgid "Preferences"
+msgstr "Tercihler"
+
+#: src/app-window.vala:1590
+msgid "Keyboard Shortcuts"
+msgstr "Klavye Kısayolları"
+
+#: src/app-window.vala:1591
+msgid "Help"
+msgstr "Yardım"
+
+#: src/app-window.vala:1592
+msgid "About"
+msgstr "Hakkında"
+
+#. Populate ActionBar (not supported in Glade)
+#. https://bugzilla.gnome.org/show_bug.cgi?id=769966
+#. Label on new document button
+#: src/app-window.vala:1600
+msgid "Start Again…"
+msgstr "Yeniden Başlat…"
+
+#. Tooltip for rotate left (counter-clockwise) button
+#: src/app-window.vala:1617
+msgid "Rotate the page to the left (counter-clockwise)"
+msgstr "Sayfayı sola döndür (saat yönünün tersine)"
+
+#. Tooltip for rotate right (clockwise) button
+#: src/app-window.vala:1624
+msgid "Rotate the page to the right (clockwise)"
+msgstr "Sayfayı sağa döndür (saat yönünde)"
+
+#. Tooltip for crop button
+#: src/app-window.vala:1634
+msgid "Crop the selected page"
+msgstr "Seçili sayfayı kırp"
+
+#. Tooltip for delete button
+#: src/app-window.vala:1650
+msgid "Delete the selected page"
+msgstr "Seçili sayfayı sil"
+
+#. Text of button for cancelling save
+#: src/app-window.vala:1815
+msgid "Cancel"
+msgstr "Vazgeç"
+
+#. Button to submit authorization dialog
+#: src/authorize-dialog.ui:25
+msgid "_Authorize"
+msgstr "_Yetkilendir"
+
+#. Label beside username entry
+#: src/authorize-dialog.ui:99
+msgid "_Username for resource:"
+msgstr "Kaynak için _kullanıcı adı:"
+
+#. Label beside password entry
+#: src/authorize-dialog.ui:112
+msgid "_Password:"
+msgstr "_Parola:"
+
+#: src/book.vala:331 src/book.vala:337
+#, c-format
+msgid "Unable to encode page %i"
+msgstr "%i. sayfa kodlanamıyor"
+
+#: src/help-overlay.ui:12
+msgctxt "shortcut window"
+msgid "Scanning"
+msgstr "Tarama"
+
+#: src/help-overlay.ui:17
+msgctxt "shortcut window"
+msgid "Scan a single page"
+msgstr "Tek bir sayfa tara"
+
+#: src/help-overlay.ui:24
+msgctxt "shortcut window"
+msgid "Scan all pages from document feeder"
+msgstr "Belge besleyicisinden tüm sayfaları tara"
+
+#: src/help-overlay.ui:31
+msgctxt "shortcut window"
+msgid "Scan continuously from a flatbed scanner"
+msgstr "Düz yatak tarayıcıdan sürekli tara"
+
+#: src/help-overlay.ui:38
+msgctxt "shortcut window"
+msgid "Stop scan in progress"
+msgstr "Süren taramayı durdur"
+
+#: src/help-overlay.ui:46
+msgctxt "shortcut window"
+msgid "Document Modification"
+msgstr "Belge Değiştirme"
+
+#: src/help-overlay.ui:51
+msgctxt "shortcut window"
+msgid "Move page left"
+msgstr "Sayfayı sola taşı"
+
+#: src/help-overlay.ui:58
+msgctxt "shortcut window"
+msgid "Move page right"
+msgstr "Sayfayı sağa taşı"
+
+#: src/help-overlay.ui:65
+msgctxt "shortcut window"
+msgid "Rotate page to the left (anti-clockwise)"
+msgstr "Sayfayı sola döndür (saat yönünün tersine)"
+
+#: src/help-overlay.ui:72
+msgctxt "shortcut window"
+msgid "Rotate page to the right (clockwise)"
+msgstr "Sayfayı sağa döndür (saat yönünde)"
+
+#: src/help-overlay.ui:79
+msgctxt "shortcut window"
+msgid "Delete page"
+msgstr "Sayfayı sil"
+
+#: src/help-overlay.ui:87
+msgctxt "shortcut window"
+msgid "Document Management"
+msgstr "Belge Yönetimi"
+
+#: src/help-overlay.ui:92
+msgctxt "shortcut window"
+msgid "Start new document"
+msgstr "Yeni belge başlat"
+
+#: src/help-overlay.ui:99
+msgctxt "shortcut window"
+msgid "Save scanned document"
+msgstr "Taranmış belgeyi kaydet"
+
+#: src/help-overlay.ui:106
+msgctxt "shortcut window"
+msgid "Email scanned document"
+msgstr "Taranmış belgeyi e-postala"
+
+#: src/help-overlay.ui:113
+msgctxt "shortcut window"
+msgid "Print scanned document"
+msgstr "Taranmış belgeyi yazdır"
+
+#: src/help-overlay.ui:120
+msgctxt "shortcut window"
+msgid "Copy current page to clipboard"
+msgstr "Geçerli sayfayı panoya kopyala"
+
+#. Label beside scan source combo box
+#: src/preferences-dialog.ui:113
+msgid "_Scanner"
+msgstr "_Tarayıcı"
+
+#. Label beside scan side combo box
+#: src/preferences-dialog.ui:143
+msgid "Scan Sides"
+msgstr "Tarama Yüzleri"
+
+#. Label beside page size combo box
+#: src/preferences-dialog.ui:160
+msgid "Page Size"
+msgstr "Sayfa Boyutu"
+
+#. Preferences Dialog: Toggle button to select scanning on front side of a page
+#: src/preferences-dialog.ui:191
+msgid "Front"
+msgstr "Ön"
+
+#. Preferences Dialog: Toggle button to select scanning on the back side of a page
+#: src/preferences-dialog.ui:206
+msgid "Back"
+msgstr "Arka"
+
+#. Preferences Dialog: Toggle button to select scanning on both sides of a page
+#: src/preferences-dialog.ui:221
+msgid "Both"
+msgstr "Her İkisi"
+
+#. Label beside page delay scale
+#: src/preferences-dialog.ui:260
+msgid "Delay"
+msgstr "Gecikme"
+
+#. Preferences dialog: Label above settings for scanning multiple pages from a flatbed
+#: src/preferences-dialog.ui:276
+msgid "Multiple pages from flatbed"
+msgstr "Düz yataktan çoklu sayfa"
+
+#. Preferences Dialog: Toggle button to select scanning on front side of a page
+#: src/preferences-dialog.ui:295
+msgid "3"
+msgstr "3"
+
+#. Preferences Dialog: Toggle button to select scanning on front side of a page
+#: src/preferences-dialog.ui:310
+msgid "5"
+msgstr "5"
+
+#. Preferences Dialog: Toggle button to select scanning on front side of a page
+#: src/preferences-dialog.ui:326
+msgid "7"
+msgstr "7"
+
+#. Preferences Dialog: Toggle button to select scanning on front side of a page
+#: src/preferences-dialog.ui:342
+msgid "10"
+msgstr "10"
+
+#. Preferences Dialog: Toggle button to select scanning on front side of a page
+#: src/preferences-dialog.ui:358
+msgid "15"
+msgstr "15"
+
+#. Label after page delay radio buttons
+#: src/preferences-dialog.ui:385
+msgid "Seconds"
+msgstr "Saniye"
+
+#. Preferences Dialog: Tab label for scanning settings
+#: src/preferences-dialog.ui:413
+msgid "Scanning"
+msgstr "Tarama"
+
+#. Label beside scan source combo box
+#: src/preferences-dialog.ui:436
+msgid "_Text Resolution"
+msgstr "_Metin Çözünürlüğü"
+
+#. Label beside scan source combo box
+#: src/preferences-dialog.ui:452
+msgid "_Photo Resolution"
+msgstr "_Fotoğraf Çözünürlüğü"
+
+#. Label beside brightness scale
+#: src/preferences-dialog.ui:505
+msgid "Brightness"
+msgstr "Parlaklık"
+
+#. Label beside contrast scale
+#: src/preferences-dialog.ui:521
+msgid "Contrast"
+msgstr "Karşıtlık"
+
+#. Preferences Dialog: Tab for quality settings
+#: src/preferences-dialog.ui:576
+msgid "Quality"
+msgstr "Nitelik"
+
+#. Combo box value for automatic paper size
+#: src/preferences-dialog.vala:77
+msgid "Automatic"
+msgstr "Kendiliğinden"
+
+#: src/preferences-dialog.vala:118
+msgid "Darker"
+msgstr "Daha koyu"
+
+#: src/preferences-dialog.vala:120
+msgid "Lighter"
+msgstr "Daha açık"
+
+#: src/preferences-dialog.vala:128
+msgid "Less"
+msgstr "Daha az"
+
+#: src/preferences-dialog.vala:130
+msgid "More"
+msgstr "Daha çok"
+
+#. Preferences dialog: Label for default resolution in resolution list
+#: src/preferences-dialog.vala:442
+#, c-format
+msgid "%d dpi (default)"
+msgstr "%d dpi (öntanımlı)"
+
+#. Preferences dialog: Label for minimum resolution in resolution list
+#: src/preferences-dialog.vala:445
+#, c-format
+msgid "%d dpi (draft)"
+msgstr "%d dpi (taslak)"
+
+#. Preferences dialog: Label for maximum resolution in resolution list
+#: src/preferences-dialog.vala:448
+#, c-format
+msgid "%d dpi (high resolution)"
+msgstr "%d dpi (yüksek çözünürlük)"
+
+#. Preferences dialog: Label for resolution value in resolution list (dpi = dots per inch)
+#: src/preferences-dialog.vala:451
+#, c-format
+msgid "%d dpi"
+msgstr "%d dpi"
+
+#. Error displayed when no scanners to scan with
+#: src/scanner.vala:844
+msgid "No scanners available.  Please connect a scanner."
+msgstr "Kullanılabilir tarayıcı yok. Lütfen bir tarayıcı bağlayın."
+
+#. Error displayed when cannot connect to scanner
+#: src/scanner.vala:874
+msgid "Unable to connect to scanner"
+msgstr "Tarayıcıya bağlanılamadı"
+
+#. Error display when unable to start scan
+#: src/scanner.vala:1227
+msgid "Unable to start scan"
+msgstr "Tarama başlatılamadı"
+
+#. Error displayed when communication with scanner broken
+#: src/scanner.vala:1240 src/scanner.vala:1347
+msgid "Error communicating with scanner"
+msgstr "Tarayıcı ile iletişim kurulamıyor"
+
+#. Help string for command line --version flag
+#: src/simple-scan.vala:21
+msgid "Show release version"
+msgstr "Dağıtım sürümünü göster"
+
+#. Help string for command line --debug flag
+#: src/simple-scan.vala:24
+msgid "Print debugging messages"
+msgstr "Hata ayıklama iletilerini yazdır"
+
+#: src/simple-scan.vala:26
+msgid "Fix PDF files generated with older versions of Simple Scan"
+msgstr "Basit Taramaʼnın eski sürümlerince üretilen PDF dosyalarını düzelt"
+
+#. Title of error dialog when scan failed
+#: src/simple-scan.vala:392
+msgid "Failed to scan"
+msgstr "Tarama başarısız oldu"
+
+#. Attempt to inhibit the screensaver when scanning
+#: src/simple-scan.vala:407
+msgid "Scan in progress"
+msgstr "Tarama sürüyor"
+
+#. Arguments and description for --help text
+#: src/simple-scan.vala:584
+msgid "[DEVICE…] — Scanning utility"
+msgstr "[AYGIT…] — Tarama uygulaması"
+
+#. Text printed out when an unknown command-line argument provided
+#: src/simple-scan.vala:595
+#, c-format
+msgid "Run “%s --help” to see a full list of available command line options."
+msgstr ""
+"Kullanılabilir komut satırı seçeneklerinin tam listesini görmek için “%s --"
+"help” komutunu çalıştırın."
+
+#~ msgid "Quit"
+#~ msgstr "Çık"
+
+#~ msgid "Saving document…"
+#~ msgstr "Belge kaydediliyor…"
+
+#~ msgid "Saving page %d out of %d"
+#~ msgstr "Kaydedilen sayfa: %d / %d"
+
+#~ msgid "Front and Back"
+#~ msgstr "Ön ve Arka taraf"
+
+#~ msgid "New"
+#~ msgstr "Yeni"
+
+#~ msgid "Rotate Left"
+#~ msgstr "Sola Döndür"
+
+#~ msgid "Rotate Right"
+#~ msgstr "Sağa Döndür"
+
+#~ msgid "Crop"
+#~ msgstr "Kırp"
+
+#~ msgid "Scan S_ource:"
+#~ msgstr "Ta_rama Kaynağı:"
+
+#~ msgid "New Document"
+#~ msgstr "Yeni Belge"
+
+#~ msgid "Document"
+#~ msgstr "Belge"
+
+#~ msgid "Email..."
+#~ msgstr "E-Posta..."
+
+#~ msgid "Print..."
+#~ msgstr "Yazdır..."
+
+#~ msgid "_Install Drivers"
+#~ msgstr "Sürücüleri _Kur"
+
+#~ msgid "Minimum"
+#~ msgstr "En Az"
+
+#~ msgid "Maximum"
+#~ msgstr "En Çok"
+
+#~ msgid "4&#xD7;6"
+#~ msgstr "4&#xD7;6"
+
+#~ msgid ""
+#~ "Usage:\n"
+#~ "  %s [DEVICE...] - Scanning utility"
+#~ msgstr ""
+#~ "Usage:\n"
+#~ "  %s [AYGIT...] - Tarama aracı"
+
+#~ msgid ""
+#~ "GTK+ Options:\n"
+#~ "  --class=CLASS                   Program class as used by the window "
+#~ "manager\n"
+#~ "  --name=NAME                     Program name as used by the window "
+#~ "manager\n"
+#~ "  --screen=SCREEN                 X screen to use\n"
+#~ "  --sync                          Make X calls synchronous\n"
+#~ "  --gtk-module=MODULES            Load additional GTK+ modules\n"
+#~ "  --g-fatal-warnings              Make all warnings fatal"
+#~ msgstr ""
+#~ "GTK+ Seçenekleri: \n"
+#~ "  --class=SINIF                   Pencere yöneticisi tarafından "
+#~ "kullanılan program sınıfı\n"
+#~ "  --name=İSİM                     Pencere yöneticisi tarafından "
+#~ "kullanılacak program ismi\n"
+#~ " --screen=EKRAN                  Kullanılacak X ekranı\n"
+#~ "  --sync                          X çağrılarını eş zamanlı yapar\n"
+#~ " --gtk-module=MODULLER          Tüm ek GTK+ modullerini yükler\n"
+#~ "  --g-fatal-warnings              Tüm uyarıları ölümcül yapar"
+
+#~ msgid "Please check your installation"
+#~ msgstr "Lütfen kurulumunuzu denetleyiniz"
+
+#~ msgid "Files missing"
+#~ msgstr "Dosyalar eksik"
+
+#~ msgid "Window height in pixels"
+#~ msgstr "Pencerenin piksel cinsinden yüksekliği"
+
+#~ msgid "Width of scanned image in pixels"
+#~ msgstr "Taranan görüntünün piksel cinsinden genişliği"
+
+#~ msgid "Window width in pixels"
+#~ msgstr "Pencerenin piksel cinsinden genişliği"
+
+#~ msgid ""
+#~ "Help Options:\n"
+#~ "  -d, --debug                     Print debugging messages\n"
+#~ "  -v, --version                   Show release version\n"
+#~ "  -h, --help                      Show help options\n"
+#~ "  --help-all                      Show all help options\n"
+#~ "  --help-gtk                      Show GTK+ options"
+#~ msgstr ""
+#~ "Yardım Seçenekleri:\n"
+#~ "  -d, --debug Hata ayıklama iletilerini yaz\n"
+#~ "  -v, --version Sürüm numarasını göster\n"
+#~ "  -h, --help Yardım seçeneklerini göster\n"
+#~ "  -help-all Tüm yardım seçeneklerini göster\n"
+#~ "  --help-gtk GTK+ seçeneklerini göster"
+
+#~ msgid "Direction of scan"
+#~ msgstr "Tarama yönü"
+
+#~ msgid "Height of scanned image in pixels"
+#~ msgstr "Taranan görüntünün piksel cinsinden yüksekliği"
+
+#~ msgid ""
+#~ "The direction of the scanner across the scanned page. It can be one of "
+#~ "the following: 'top-to-bottom' 'bottom-to-top' 'left-to-right' 'right-to-"
+#~ "left'"
+#~ msgstr ""
+#~ "Tarayıcının taranan sayfa boyunca yönü. Şunlardan biri olabilir: "
+#~ "'yukarıdan aşağıya' 'aşağıdan yukarıya' 'soldan sağa' 'sağdan sola'"
+
+#~ msgid ""
+#~ "The height of scanned image in pixels. This value is updated to what the "
+#~ "last scanned page was."
+#~ msgstr ""
+#~ "Taranan görüntünün piksel cinsinden yüksekliği. Bu değer en son taranan "
+#~ "sayfaya göre güncellenir."
+
+#~ msgid "The resolution in dots-per-inch of the previously scanned image."
+#~ msgstr ""
+#~ "Bir önceki taranan görüntünün inç başına nokta sayısı cinsinden "
+#~ "çözünürlüğü."
+
+#~ msgid "Resolution of last scanned image"
+#~ msgstr "En son taranan görüntünün çözünürlüğü"
+
+#~ msgid ""
+#~ "The width of scanned image in pixels. This value is updated to what the "
+#~ "last scanned page was."
+#~ msgstr ""
+#~ "Taranan görüntünün piksel cinsinden genişliği. Bu değer en son taranan "
+#~ "sayfaya göre güncellenir."
+
+#~ msgid ""
+#~ "Type of document being scanned. 'text' for text documents, 'photo' for "
+#~ "photos. This setting decides on the scan resolution, colors and post-"
+#~ "processing."
+#~ msgstr ""
+#~ "Taranan belgenin türü. Metin belgeleri için 'metin', fotoğraflar için "
+#~ "'fotoğraf'. Bu ayar tarama çözünürlüğünü, renkleri ve  tarama sonrası "
+#~ "işlemleri belirler."
+
+#~ msgid "Select File _Type"
+#~ msgstr "Dosya _Türünü Seç"
+
+#~ msgid ""
+#~ "The page side to scan. It can be one of the following: 'both' 'front' "
+#~ "'back'"
+#~ msgstr ""
+#~ "Taranacak sayfa tarafı. Şu seçeneklerden biri olabilir: 'her iki taraf' "
+#~ "'ön taraf' 'arka taraf'"
+
+#~ msgid "TRUE if the application window is maximized"
+#~ msgstr "Uygulama penceresi ekranı kapladığında DOĞRU (TRUE)"
+
+#~ msgid "The direction of the scanner across the scanned page."
+#~ msgstr "Tarayıcının taranmış sayfa boyunca yönü."

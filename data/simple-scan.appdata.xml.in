@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>simple-scan.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+ and CC-BY-SA-3.0</project_license>
+  <name>Simple Scan</name>
+  <summary>Scan Documents</summary>
+  <description>
+    <p>
+      A really easy way to scan both documents and photos.
+      You can crop out the bad parts of a photo and rotate it if it is the wrong way round.
+      You can print your scans, export them to pdf, or save them in a range of image formats.
+    </p>
+    <p>
+      Simple Scan uses the SANE framework to support most existing scanners.
+    </p>
+  </description>
+  <screenshots>
+    <screenshot type="default">https://launchpadlibrarian.net/203209644/simple-scan.png</screenshot>
+  </screenshots>
+  <url type="homepage">https://gitlab.gnome.org/GNOME/simple-scan</url>
+  <update_contact>robert.ancell_AT_canonical.com</update_contact>
+  <translation type="gettext">simple-scan</translation>
+</component>

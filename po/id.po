@@ -1,0 +1,1041 @@
+# Indonesian translation for simple-scan
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the simple-scan package.
+# Andika Triwidada <andika@gmail.com>, 2017
+# Kukuh Syafaat <syafaatkukuh@gmail.com>, 2017
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: simple-scan master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/simple-scan/issues\n"
+"POT-Creation-Date: 2018-06-25 22:01+0000\n"
+"PO-Revision-Date: 2018-06-26 16:42+0700\n"
+"Last-Translator: Kukuh Syafaat <kukuhsyafaat@gnome.org>\n"
+"Language-Team: Indonesian <id@li.org>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2017-04-25 06:10+0000\n"
+"X-Generator: Poedit 2.0.6\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: data/org.gnome.SimpleScan.gschema.xml:11
+msgid "Device to scan from"
+msgstr "Perangkat untuk memindai"
+
+#: data/org.gnome.SimpleScan.gschema.xml:12
+msgid "SANE device to acquire images from."
+msgstr "Perangkat SANE yang dipakai untuk mengambil gambar."
+
+#: data/org.gnome.SimpleScan.gschema.xml:20
+msgid "Type of document being scanned"
+msgstr "Tipe dokumen yang akan dipindai"
+
+#: data/org.gnome.SimpleScan.gschema.xml:21
+msgid ""
+"Type of document being scanned. This setting decides on the scan resolution, "
+"colors and post-processing."
+msgstr ""
+"Tipe dokumen yang akan dipindai. Pengaturan ini menentukan resolusi, warna, "
+"dan pasca-proses pemindaian."
+
+#: data/org.gnome.SimpleScan.gschema.xml:25
+msgid "Width of paper in tenths of a mm"
+msgstr "Lebar kertas dalam persepuluhan milimeter"
+
+#: data/org.gnome.SimpleScan.gschema.xml:26
+msgid ""
+"The width of the paper in tenths of a mm (or 0 for automatic paper "
+"detection)."
+msgstr ""
+"Lebar kertas dalam persepuluhan mm (atau 0 untuk deteksi kertas otomatis)."
+
+#: data/org.gnome.SimpleScan.gschema.xml:30
+msgid "Height of paper in tenths of a mm"
+msgstr "Panjang kertas dalam persepuluh mm"
+
+#: data/org.gnome.SimpleScan.gschema.xml:31
+msgid ""
+"The height of the paper in tenths of a mm (or 0 for automatic paper "
+"detection)."
+msgstr ""
+"Panjang kertas dalam sepersepuluh mm (atau 0 jika kertas dideteksi otomatis)"
+
+#: data/org.gnome.SimpleScan.gschema.xml:35
+msgid "Brightness of scan"
+msgstr "Kecerahan pemindaian"
+
+#: data/org.gnome.SimpleScan.gschema.xml:36
+msgid "The brightness adjustment from -100 to 100 (0 being none)."
+msgstr "Penyesuaian kecerahan dari -100 ke 100 (0 berarti nihil)."
+
+#: data/org.gnome.SimpleScan.gschema.xml:40
+msgid "Contrast of scan"
+msgstr "Kontras pemindaian"
+
+#: data/org.gnome.SimpleScan.gschema.xml:41
+msgid "The contrast adjustment from -100 to 100 (0 being none)."
+msgstr "Penyesuaian kontras dari -100 ke 100 (0 berarti nihil)."
+
+#: data/org.gnome.SimpleScan.gschema.xml:45
+msgid "Resolution for text scans"
+msgstr "Resolusi untuk pemindaian teks"
+
+#: data/org.gnome.SimpleScan.gschema.xml:46
+msgid "The resolution in dots-per-inch to use when scanning text."
+msgstr "Resolusi dalam dots-per-inch yang digunakan dalam pemindaian teks."
+
+#: data/org.gnome.SimpleScan.gschema.xml:50
+msgid "Resolution for photo scans"
+msgstr "Resolusi untuk pemindaian foto"
+
+#: data/org.gnome.SimpleScan.gschema.xml:51
+msgid "The resolution in dots-per-inch to use when scanning photos."
+msgstr "Resolusi dalam dots-per-inch yang digunakan dalam pemindaian foto."
+
+#: data/org.gnome.SimpleScan.gschema.xml:55
+msgid "Page side to scan"
+msgstr "Sisi halaman yang dipindai"
+
+#: data/org.gnome.SimpleScan.gschema.xml:56
+msgid "The page side to scan."
+msgstr "Sisi halaman yang dipindai."
+
+#: data/org.gnome.SimpleScan.gschema.xml:60
+msgid "Directory to save files to"
+msgstr "Simpan berkas ke direktori"
+
+#: data/org.gnome.SimpleScan.gschema.xml:61
+msgid ""
+"The directory to save files to. Defaults to the documents directory if unset."
+msgstr ""
+"Direktori tempat menyimpan berkas. Akan disimpan ke direktori dokumen jika "
+"belum diset."
+
+#: data/org.gnome.SimpleScan.gschema.xml:66
+msgid "Quality value to use for JPEG compression"
+msgstr "Nilai kualitas yang akan dipakai untuk kompresi JPEG"
+
+#: data/org.gnome.SimpleScan.gschema.xml:67
+msgid "Quality value to use for JPEG compression."
+msgstr "Nilai kualitas yang akan dipakai untuk kompresi JPEG."
+
+#: data/org.gnome.SimpleScan.gschema.xml:72
+msgid "Delay in millisecond between pages"
+msgstr "Tundaan dalam mili detik antar halaman"
+
+#: data/org.gnome.SimpleScan.gschema.xml:73
+msgid "Delay in millisecond between pages."
+msgstr "Tundaan dalam mili detik antar halaman."
+
+#. Title of scan window
+#. Set HeaderBar title here because Glade doesn't keep it translated
+#. https://bugzilla.gnome.org/show_bug.cgi?id=782753
+#. Title of scan window
+#: data/simple-scan.appdata.xml.in:6 data/simple-scan.desktop.in:3
+#: src/app-window.ui:76 src/app-window.vala:1571
+msgid "Simple Scan"
+msgstr "Pemindai Ringkas"
+
+#: data/simple-scan.appdata.xml.in:7 data/simple-scan.desktop.in:5
+msgid "Scan Documents"
+msgstr "Pindai Dokumen"
+
+#: data/simple-scan.appdata.xml.in:9
+msgid ""
+"A really easy way to scan both documents and photos. You can crop out the "
+"bad parts of a photo and rotate it if it is the wrong way round. You can "
+"print your scans, export them to pdf, or save them in a range of image "
+"formats."
+msgstr ""
+"Cara mudah untuk memindai dokumen dan foto. Anda dapat membuang bagian yang "
+"jelek dari suatu foto dan memutarnya bila itu terbalik. Anda dapat mencetak "
+"pindaian Anda, mengekspor ke pdf, atau menyimpan ke sejumlah format berkas."
+
+#: data/simple-scan.appdata.xml.in:14
+msgid "Simple Scan uses the SANE framework to support most existing scanners."
+msgstr ""
+"Simple Scan memakai framework SANE untuk mendukung kebanyakan pemindai yang "
+"ada."
+
+#: data/simple-scan.desktop.in:4
+msgid "Document Scanner"
+msgstr "Pelarik Dokumen"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/simple-scan.desktop.in:7
+msgid "scan;scanner;flatbed;adf;"
+msgstr "scan;scanner;pelarik;pemindai;flatbed;adf;"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: data/simple-scan.desktop.in:10
+msgid "scanner"
+msgstr "scanner"
+
+#. Toolbar scan menu item to scan a single page from the scanner
+#. Scan menu item to scan a single page from the scanner
+#. Toolbar scan menu item to scan a single page from the scanner
+#: src/app-window.ui:22 src/app-window.ui:123 src/app-window.ui:831
+msgid "Single _Page"
+msgstr "Satu _Halaman"
+
+#. Toolbar scan menu item to scan all pages from a document feeder
+#. Scan menu item to scan all pages from a document feeder
+#. Toolbar scan menu item to scan all pages from a document feeder
+#: src/app-window.ui:31 src/app-window.ui:133 src/app-window.ui:840
+msgid "All Pages From _Feeder"
+msgstr "Semua Halaman Dari _Feeder"
+
+#. Toolbar scan menu item to scan continuously from the flatbed
+#. Scan menu item to scan continuously from the flatbed
+#. Toolbar scan menu item to scan continuously from the flatbed
+#: src/app-window.ui:40 src/app-window.ui:143 src/app-window.ui:849
+msgid "_Multiple Pages From Flatbed"
+msgstr "Beberapa Hala_man Dari Flatbed"
+
+#: src/app-window.ui:55 src/app-window.ui:170 src/app-window.ui:864
+msgid "Text"
+msgstr "Teks"
+
+#: src/app-window.ui:65 src/app-window.ui:180 src/app-window.ui:874
+msgid "Photo"
+msgstr "Foto"
+
+#. Label on document menu (contains actions for this document, e.g. save, print)
+#: src/app-window.ui:91
+msgid "_Document"
+msgstr "_Dokumen"
+
+#. Scan menu item
+#: src/app-window.ui:110
+msgid "Sc_an"
+msgstr "Pind_ai"
+
+#. Menu entry to stop current scan
+#: src/app-window.ui:154
+msgid "_Stop Scan"
+msgstr "Berhenti _Memindai"
+
+#. Menu item to reorder pages
+#. Title of dialog to reorder pages
+#: src/app-window.ui:196 src/app-window.vala:978 src/app-window.vala:1601
+msgid "Reorder Pages"
+msgstr "Atur Ulang Halaman"
+
+#. Label on email menu item
+#: src/app-window.ui:215
+msgid "_Email"
+msgstr "Sur_el"
+
+#. Page menu (contains action for each page, e.g. delete, crop)
+#: src/app-window.ui:280
+msgid "_Page"
+msgstr "_Halaman"
+
+#. Menu item to rotate page to left (anti-clockwise)
+#: src/app-window.ui:290
+msgid "Rotate _Left"
+msgstr "Putar _Kiri"
+
+#. Menu item to rotate page to right (clockwise)
+#: src/app-window.ui:300
+msgid "Rotate _Right"
+msgstr "Putar Ka_nan"
+
+#. Label for page crop submenu
+#: src/app-window.ui:310
+msgid "_Crop"
+msgstr "_Potong"
+
+#. Radio button for no crop
+#: src/app-window.ui:320
+msgid "_None"
+msgstr "_Nihil"
+
+#. Radio button for cropping page to A4 size
+#: src/app-window.ui:331
+msgid "A_4"
+msgstr "A_4"
+
+#. Radio button for cropping page to A5 size
+#: src/app-window.ui:342
+msgid "A_5"
+msgstr "A_5"
+
+#. Radio button for cropping page to A6 size
+#: src/app-window.ui:353
+msgid "A_6"
+msgstr "A_6"
+
+#. Radio button for cropping page to US letter size
+#: src/app-window.ui:364
+msgid "_Letter"
+msgstr "_Letter"
+
+#. Radio button for cropping to page to US legal size
+#: src/app-window.ui:375
+msgid "Le_gal"
+msgstr "Le_gal"
+
+#. Radio button for cropping page to 4x6 inch
+#: src/app-window.ui:386
+msgid "4×6"
+msgstr "4x6"
+
+#. Radio button for cropping page to A3
+#: src/app-window.ui:397
+msgid "A_3"
+msgstr "A_3"
+
+#. Radio button for cropping to custom page size
+#: src/app-window.ui:408
+msgid "_Custom"
+msgstr "_Ubahan"
+
+#. Menu item to rotate the crop area
+#: src/app-window.ui:426
+msgid "_Rotate Crop"
+msgstr "Puta_r dan Potong"
+
+#. Menu item to move the selected page to the left
+#: src/app-window.ui:439
+msgid "Move Left"
+msgstr "Pindah Ke Kiri"
+
+#. Menu item to move the selected page to the right
+#: src/app-window.ui:448
+msgid "Move Right"
+msgstr "Pindah Ke Kanan"
+
+#. Label on help menu
+#: src/app-window.ui:485
+msgid "_Help"
+msgstr "Ba_ntuan"
+
+#. Help|Contents menu
+#: src/app-window.ui:493
+msgid "_Contents"
+msgstr "_Isi"
+
+#. Tooltip for scan toolbar button
+#: src/app-window.ui:531 src/app-window.ui:731
+msgid "Scan a single page from the scanner"
+msgstr "Pindai sebuah halaman dari pemindai"
+
+#. Label on scan toolbar item
+#: src/app-window.ui:533 src/app-window.ui:727
+msgid "Scan"
+msgstr "Pindai"
+
+#. Tooltip for save toolbar button
+#: src/app-window.ui:549 src/app-window.ui:798
+msgid "Save document to a file"
+msgstr "Simpan hasil dalam berkas"
+
+#: src/app-window.ui:551
+msgid "Save"
+msgstr "Simpan"
+
+#. Tooltip for stop button
+#: src/app-window.ui:566 src/app-window.ui:711
+msgid "Stop the current scan"
+msgstr "Hentikan pemindaian"
+
+#: src/app-window.ui:567 src/app-window.ui:708
+msgid "Stop"
+msgstr "Stop"
+
+#. Label shown when searching for scanners
+#: src/app-window.ui:622
+msgid "Searching for Scanners…"
+msgstr "Mencari Pemindai…"
+
+#: src/app-window.vala:239 src/app-window.vala:1391
+msgid "_Close"
+msgstr "_Tutup"
+
+#. Label in authorization dialog.  “%s” is replaced with the name of the resource requesting authorization
+#: src/app-window.vala:248
+#, c-format
+msgid "Username and password required to access “%s”"
+msgstr "Nama pengguna dan kata sandi dibutuhkan untuk mengakses \"%s\""
+
+#. Label shown when detected a scanner
+#: src/app-window.vala:268 src/app-window.vala:586
+msgid "Ready to Scan"
+msgstr "Siap Memindai"
+
+#. Warning displayed when no drivers are installed but a compatible scanner is detected
+#: src/app-window.vala:275
+msgid "Additional software needed"
+msgstr "Perlu perangkat lunak tambahan"
+
+#. Instructions to install driver software
+#: src/app-window.vala:277
+msgid ""
+"You need to <a href=\"install-firmware\">install driver software</a> for "
+"your scanner."
+msgstr ""
+"Anda perlu <a href=\"install-firmware\">memasang perangkat lunak penggerak</"
+"a> bagi pemindai Anda."
+
+#. Warning displayed when no scanners are detected
+#: src/app-window.vala:283
+msgid "No scanners detected"
+msgstr "Tidak ada pemindai yang terdeteksi"
+
+#. Hint to user on why there are no scanners detected
+#: src/app-window.vala:285
+msgid "Please check your scanner is connected and powered on"
+msgstr "Mohon periksa apakah pemindai Anda terhubung dan dalam keadaan menyala"
+
+#. Save dialog: Dialog title
+#: src/app-window.vala:300
+msgid "Save As…"
+msgstr "Simpan Sebagai..."
+
+#: src/app-window.vala:303 src/app-window.vala:473 src/app-window.vala:554
+msgid "_Cancel"
+msgstr "_Batal"
+
+#: src/app-window.vala:304 src/app-window.vala:555
+msgid "_Save"
+msgstr "_Simpan"
+
+#. Default filename to use when saving document
+#: src/app-window.vala:312
+msgid "Scanned Document.pdf"
+msgstr "Dokumen Hasil Pindai.pdf"
+
+#. Save dialog: Filter name to show only supported image files
+#: src/app-window.vala:318
+msgid "Image Files"
+msgstr "Berkas Citra"
+
+#. Save dialog: Filter name to show all files
+#: src/app-window.vala:328
+msgid "All Files"
+msgstr "Semua Berkas"
+
+#. Save dialog: Label for saving in PDF format
+#: src/app-window.vala:337
+msgid "PDF (multi-page document)"
+msgstr "PDF (dokumen multi-halaman)"
+
+#. Save dialog: Label for saving in JPEG format
+#: src/app-window.vala:343
+msgid "JPEG (compressed)"
+msgstr "JPEG (terkompresi)"
+
+#. Save dialog: Label for saving in PNG format
+#: src/app-window.vala:349
+msgid "PNG (lossless)"
+msgstr "PNG (lossless)"
+
+#. Save dialog: Label for sabing in WEBP format
+#: src/app-window.vala:356
+msgid "WebP (compressed)"
+msgstr "WebP (terkompresi)"
+
+#. Label in save dialog beside combo box to choose file format (PDF, JPEG, PNG, WEBP)
+#: src/app-window.vala:366
+msgid "File format:"
+msgstr "Format berkas:"
+
+#. Label in save dialog beside compression slider
+#: src/app-window.vala:378
+msgid "Compression:"
+msgstr "Kompresi:"
+
+#. Contents of dialog that shows if saving would overwrite and existing file. %s is replaced with the name of the file.
+#: src/app-window.vala:472
+#, c-format
+msgid "A file named “%s” already exists.  Do you want to replace it?"
+msgstr "Berkas dengan nama \"%s\" sudah ada. Apakah Anda ingin menimpanya?"
+
+#. Button in dialog that shows if saving would overwrite and existing file. Clicking the button allows simple-scan to overwrite the file.
+#: src/app-window.vala:475
+msgid "_Replace"
+msgstr "_Timpa"
+
+#: src/app-window.vala:514
+msgid "Saving"
+msgstr "Menyimpan"
+
+#. Title of error dialog when save failed
+#: src/app-window.vala:529
+msgid "Failed to save file"
+msgstr "Gagal menyimpan berkas"
+
+#. Text in dialog warning when a document is about to be lost
+#: src/app-window.vala:552
+msgid "If you don’t save, changes will be permanently lost."
+msgstr "Jika Anda tidak menyimpan, perubahan akan hilang secara permanen."
+
+#. Text in dialog warning when a document is about to be lost
+#: src/app-window.vala:593
+msgid "Save current document?"
+msgstr "Simpan dokumen saat ini?"
+
+#. Button in dialog to create new document and discard unsaved document
+#: src/app-window.vala:595
+msgid "Discard Changes"
+msgstr "Buang Perubahan"
+
+#. Label shown when scan started
+#: src/app-window.vala:694
+msgid "Contacting scanner…"
+msgstr "Menghubungi pemindai…"
+
+#. Error message display when unable to save image for preview
+#: src/app-window.vala:804
+msgid "Unable to save image for preview"
+msgstr "Tak dapat menyimpan gambar untuk pratinjau"
+
+#. Error message display when unable to preview image
+#: src/app-window.vala:816
+msgid "Unable to open image preview application"
+msgstr "Tidak dapat membuka aplikasi pratinjau gambar"
+
+#. Label on button for combining sides in reordering dialog
+#: src/app-window.vala:1001
+msgid "Combine sides"
+msgstr "Kombinasikan sisi-sisi"
+
+#. Label on button for combining sides in reverse order in reordering dialog
+#: src/app-window.vala:1011
+msgid "Combine sides (reverse)"
+msgstr "Kombinasikan sisi-sisi (balik)"
+
+#. Label on button for reversing in reordering dialog
+#: src/app-window.vala:1021
+msgid "Reverse"
+msgstr "Balikkan"
+
+#. Label on button for cancelling page reordering dialog
+#: src/app-window.vala:1031
+msgid "Keep unchanged"
+msgstr "Biarkan tak berubah"
+
+#. Error message displayed when unable to launch help browser
+#: src/app-window.vala:1261
+msgid "Unable to open help file"
+msgstr "Tak dapat membuka berkas bantuan"
+
+#. The license this software is under (GPL3+)
+#: src/app-window.vala:1282
+msgid ""
+"This program is free software: you can redistribute it and/or modify\n"
+"it under the terms of the GNU General Public License as published by\n"
+"the Free Software Foundation, either version 3 of the License, or\n"
+"(at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program.  If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"Program ini adalah perangkat lunak bebas: anda dapat mendistribusikan\n"
+"kembali dan/atau memodifikasinya dibawah  termsdari GNU General \n"
+"Public License sebagaimana dipublikasi oleh Free Software Foundation,\n"
+"baik lisensi versi 3 maupun (sesuai pilihan anda) versi yang lain.\n"
+"Program ini didistribusikan dengan harapan akan menjadi berguna,\n"
+"namun TANPA PEMBENARAN; bahkan tanpa pembenaran tersirat untuk\n"
+" DIPERDAGANGKAN atau KESESUAIAN UNTUK TUJUAN TERTENTU. lihat\n"
+"GNU General Public License untuk detail selengkapnya.\n"
+"\n"
+"Anda seharusnya mendapat salinan GNU General Public License\n"
+"bersama program ini. Bila tidak, lihat <http://www.gnu.org/licenses/>."
+
+#. Title of about dialog
+#: src/app-window.vala:1285
+msgid "About Simple Scan"
+msgstr "Tentang Simple Scan"
+
+#. Description of program
+#: src/app-window.vala:1288
+msgid "Simple document scanning tool"
+msgstr "Alat pemindai dokumen sederhana"
+
+#: src/app-window.vala:1297
+msgid "translator-credits"
+msgstr ""
+"Kukuh Syafaat <kukuhsyafaat@gnome.org>, 2017, 2018.\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Abdul Munif Hanafi https://launchpad.net/~nafica-coroz\n"
+"  Andika Triwidada https://launchpad.net/~andika\n"
+"  Arief Setiadi Wibowo https://launchpad.net/~q-thrynx\n"
+"  Budi Prasetyo https://launchpad.net/~bprast1\n"
+"  La Ode Adam Saputra https://launchpad.net/~laode-saputra\n"
+"  Launchpad Translations Administrators https://launchpad.net/~rosetta\n"
+"  Putu Wiramaswara Widya https://launchpad.net/~wiramaswara\n"
+"  Rahman Yusri Aftian https://launchpad.net/~aftian\n"
+"  Trisno Pamuji https://launchpad.net/~tri.snowman\n"
+"  Viktor Aditya https://launchpad.net/~victoraditya91\n"
+"  Waluyo Adi Siswanto https://launchpad.net/~was-wlk\n"
+"  idham khaidir https://launchpad.net/~kenzoabeta\n"
+"  jemmy surya https://launchpad.net/~jemmy"
+
+#. Text in dialog warning when a document is about to be lost
+#: src/app-window.vala:1319
+msgid "Save document before quitting?"
+msgstr "Simpan dokumen sebelum keluar"
+
+#. Text in dialog warning when a document is about to be lost
+#: src/app-window.vala:1321
+msgid "Quit without Saving"
+msgstr "Keluar tanpa menyimpan"
+
+#. Message to indicate a Brother scanner has been detected
+#: src/app-window.vala:1368
+msgid "You appear to have a Brother scanner."
+msgstr "Nampaknya Anda punya pemindai Brother."
+
+#. Instructions on how to install Brother scanner drivers
+#: src/app-window.vala:1370
+msgid ""
+"Drivers for this are available on the <a href=\"http://support.brother.com"
+"\">Brother website</a>."
+msgstr ""
+"Penggerak bagi ini tersedia di <a href=\"http://support.brother.com\">situs "
+"web Brother</a>."
+
+#. Message to indicate a Samsung scanner has been detected
+#: src/app-window.vala:1374
+msgid "You appear to have a Samsung scanner."
+msgstr "Nampaknya Anda punya pemindai Samsung."
+
+#. Instructions on how to install Samsung scanner drivers
+#: src/app-window.vala:1376
+msgid ""
+"Drivers for this are available on the <a href=\"http://samsung.com/support"
+"\">Samsung website</a>."
+msgstr ""
+"Penggerak bagi ini tersedia di <a href=\"http://samsung.com/support\">situs "
+"web Samsung</a>."
+
+#. Message to indicate a HP scanner has been detected
+#: src/app-window.vala:1380
+msgid "You appear to have an HP scanner."
+msgstr "Nampaknya Anda punya pemindai HP."
+
+#. Message to indicate an Epson scanner has been detected
+#: src/app-window.vala:1385
+msgid "You appear to have an Epson scanner."
+msgstr "Nampaknya Anda punya pemindai Epson."
+
+#. Instructions on how to install Epson scanner drivers
+#: src/app-window.vala:1387
+msgid ""
+"Drivers for this are available on the <a href=\"http://support.epson.com"
+"\">Epson website</a>."
+msgstr ""
+"Penggerak bagi ini tersedia di <a href=\"http://support.epson.com\">situs "
+"web Epson</a>."
+
+#. Title of dialog giving instructions on how to install drivers
+#: src/app-window.vala:1391
+msgid "Install drivers"
+msgstr "Pasang penggerak"
+
+#. Message in driver install dialog
+#: src/app-window.vala:1422
+msgid "Once installed you will need to restart Simple Scan."
+msgstr "Sekali terpasang Anda perlu memulai ulang Simple Scan."
+
+#. Label shown while installing drivers
+#: src/app-window.vala:1434
+msgid "Installing drivers…"
+msgstr "Memasang penggerak…"
+
+#. Label shown once drivers successfully installed
+#: src/app-window.vala:1442
+msgid "Drivers installed successfully!"
+msgstr "Penggerak sukses terpasang!"
+
+#. Label shown if failed to install drivers
+#: src/app-window.vala:1452
+#, c-format
+msgid "Failed to install drivers (error code %d)."
+msgstr "Gagal memasang penggerak (kode kesalahan %d)."
+
+#. Label shown if failed to install drivers
+#: src/app-window.vala:1458
+msgid "Failed to install drivers."
+msgstr "Gagal memasang penggerak."
+
+#. Label shown to prompt user to install packages (when PackageKit not available)
+#: src/app-window.vala:1465
+#, c-format
+msgid "You need to install the %s package."
+msgid_plural "You need to install the %s packages."
+msgstr[0] "Anda perlu memasang paket %s."
+
+#. Title of preferences dialog
+#: src/app-window.vala:1579 src/app-window.vala:1602
+#: src/preferences-dialog.ui:53
+msgid "Preferences"
+msgstr "Preferensi"
+
+#: src/app-window.vala:1583
+msgid "Keyboard Shortcuts"
+msgstr "Pintasan Papan Tik"
+
+#: src/app-window.vala:1584
+msgid "Help"
+msgstr "Bantuan"
+
+#: src/app-window.vala:1585
+msgid "About"
+msgstr "Perihal"
+
+#: src/app-window.vala:1586
+msgid "Quit"
+msgstr "Keluar"
+
+#: src/app-window.vala:1600
+msgid "Email"
+msgstr "Surel"
+
+#. Populate ActionBar (not supported in Glade)
+#. https://bugzilla.gnome.org/show_bug.cgi?id=769966
+#. Label on new document button
+#: src/app-window.vala:1610
+msgid "Start Again…"
+msgstr "Mulai lagi…"
+
+#. Tooltip for rotate left (counter-clockwise) button
+#: src/app-window.vala:1627
+msgid "Rotate the page to the left (counter-clockwise)"
+msgstr "Putar halaman ke kiri (berlawanan arah jarum jam)"
+
+#. Tooltip for rotate right (clockwise) button
+#: src/app-window.vala:1634
+msgid "Rotate the page to the right (clockwise)"
+msgstr "Putar halaman ke kanan (searah jarum jam)"
+
+#. Tooltip for crop button
+#: src/app-window.vala:1644
+msgid "Crop the selected page"
+msgstr "Potong halaman yang dipilih"
+
+#. Tooltip for delete button
+#: src/app-window.vala:1660
+msgid "Delete the selected page"
+msgstr "Hapus halaman yang dipilih"
+
+#. Text of button for cancelling save
+#: src/app-window.vala:1825
+msgid "Cancel"
+msgstr "Batal"
+
+#. Button to submit authorization dialog
+#: src/authorize-dialog.ui:25
+msgid "_Authorize"
+msgstr "Otoris_asikan"
+
+#. Label beside username entry
+#: src/authorize-dialog.ui:99
+msgid "_Username for resource:"
+msgstr "Nama pengg_una untuk sumber daya:"
+
+#. Label beside password entry
+#: src/authorize-dialog.ui:112
+msgid "_Password:"
+msgstr "_Sandi:"
+
+#: src/book.vala:331 src/book.vala:337
+#, c-format
+msgid "Unable to encode page %i"
+msgstr "Tak dapat mengkodekan halaman %i"
+
+#: src/help-overlay.ui:12
+msgctxt "shortcut window"
+msgid "Scanning"
+msgstr "Memindai"
+
+#: src/help-overlay.ui:17
+msgctxt "shortcut window"
+msgid "Scan a single page"
+msgstr "Pindai sebuah halaman"
+
+#: src/help-overlay.ui:24
+msgctxt "shortcut window"
+msgid "Scan all pages from document feeder"
+msgstr "Pindai semua halaman dari pengumpan dokumen"
+
+#: src/help-overlay.ui:31
+msgctxt "shortcut window"
+msgid "Scan continuously from a flatbed scanner"
+msgstr "Scan terus menerus dari pemindai flatbed"
+
+#: src/help-overlay.ui:38
+msgctxt "shortcut window"
+msgid "Stop scan in progress"
+msgstr "Hentikan pemindaian yang sedang berlangsung"
+
+#: src/help-overlay.ui:46
+msgctxt "shortcut window"
+msgid "Document Modification"
+msgstr "Modifikasi Dokumen"
+
+#: src/help-overlay.ui:51
+msgctxt "shortcut window"
+msgid "Move page left"
+msgstr "Pindahkan halaman ke kiri"
+
+#: src/help-overlay.ui:58
+msgctxt "shortcut window"
+msgid "Move page right"
+msgstr "Pindahkan halaman ke kanan"
+
+#: src/help-overlay.ui:65
+msgctxt "shortcut window"
+msgid "Rotate page to the left (anti-clockwise)"
+msgstr "Putar halaman ke kiri (berlawanan arah jarum jam)"
+
+#: src/help-overlay.ui:72
+msgctxt "shortcut window"
+msgid "Rotate page to the right (clockwise)"
+msgstr "Putar halaman ke kanan (searah jarum jam)"
+
+#: src/help-overlay.ui:79
+msgctxt "shortcut window"
+msgid "Delete page"
+msgstr "Hapus halaman"
+
+#: src/help-overlay.ui:87
+msgctxt "shortcut window"
+msgid "Document Management"
+msgstr "Pengelolaan Dokumen"
+
+#: src/help-overlay.ui:92
+msgctxt "shortcut window"
+msgid "Start new document"
+msgstr "Mulai dokumen baru"
+
+#: src/help-overlay.ui:99
+msgctxt "shortcut window"
+msgid "Save scanned document"
+msgstr "Simpan dokumen yang dipindai"
+
+#: src/help-overlay.ui:106
+msgctxt "shortcut window"
+msgid "Email scanned document"
+msgstr "Kirim surel dokumen pindaian"
+
+#: src/help-overlay.ui:113
+msgctxt "shortcut window"
+msgid "Print scanned document"
+msgstr "Cetak dokumen pindaian"
+
+#: src/help-overlay.ui:120
+msgctxt "shortcut window"
+msgid "Copy current page to clipboard"
+msgstr "Salin halaman ini ke papan klip"
+
+#. Label beside scan source combo box
+#: src/preferences-dialog.ui:113
+msgid "_Scanner"
+msgstr "_Pemindai"
+
+#. Label beside scan side combo box
+#: src/preferences-dialog.ui:143
+msgid "Scan Sides"
+msgstr "Bidang Pindai:"
+
+#. Label beside page size combo box
+#: src/preferences-dialog.ui:160
+msgid "Page Size"
+msgstr "Ukuran Halaman"
+
+#. Preferences Dialog: Toggle button to select scanning on front side of a page
+#: src/preferences-dialog.ui:191
+msgid "Front"
+msgstr "Depan"
+
+#. Preferences Dialog: Toggle button to select scanning on the back side of a page
+#: src/preferences-dialog.ui:206
+msgid "Back"
+msgstr "Belakang"
+
+#. Preferences Dialog: Toggle button to select scanning on both sides of a page
+#: src/preferences-dialog.ui:221
+msgid "Both"
+msgstr "Keduanya"
+
+#. Label beside page delay scale
+#: src/preferences-dialog.ui:260
+msgid "Delay"
+msgstr "Tunda"
+
+#. Preferences dialog: Label above settings for scanning multiple pages from a flatbed
+#: src/preferences-dialog.ui:276
+msgid "Multiple pages from flatbed"
+msgstr "Beberapa halaman dari flatbed"
+
+#. Preferences Dialog: Toggle button to select scanning on front side of a page
+#: src/preferences-dialog.ui:295
+msgid "3"
+msgstr "3"
+
+#. Preferences Dialog: Toggle button to select scanning on front side of a page
+#: src/preferences-dialog.ui:310
+msgid "5"
+msgstr "5"
+
+#. Preferences Dialog: Toggle button to select scanning on front side of a page
+#: src/preferences-dialog.ui:326
+msgid "7"
+msgstr "7"
+
+#. Preferences Dialog: Toggle button to select scanning on front side of a page
+#: src/preferences-dialog.ui:342
+msgid "10"
+msgstr "10"
+
+#. Preferences Dialog: Toggle button to select scanning on front side of a page
+#: src/preferences-dialog.ui:358
+msgid "15"
+msgstr "15"
+
+#. Label after page delay radio buttons
+#: src/preferences-dialog.ui:385
+msgid "Seconds"
+msgstr "Detik"
+
+#. Preferences Dialog: Tab label for scanning settings
+#: src/preferences-dialog.ui:413
+msgid "Scanning"
+msgstr "Memindai"
+
+#. Label beside scan source combo box
+#: src/preferences-dialog.ui:436
+msgid "_Text Resolution"
+msgstr "Resolusi _Teks"
+
+#. Label beside scan source combo box
+#: src/preferences-dialog.ui:452
+msgid "_Photo Resolution"
+msgstr "Resolusi _Foto"
+
+#. Label beside brightness scale
+#: src/preferences-dialog.ui:505
+msgid "Brightness"
+msgstr "Kecerahan"
+
+#. Label beside contrast scale
+#: src/preferences-dialog.ui:521
+msgid "Contrast"
+msgstr "Kontras"
+
+#. Preferences Dialog: Tab for quality settings
+#: src/preferences-dialog.ui:576
+msgid "Quality"
+msgstr "Kualitas"
+
+#. Combo box value for automatic paper size
+#: src/preferences-dialog.vala:77
+msgid "Automatic"
+msgstr "Otomatis"
+
+#: src/preferences-dialog.vala:118
+msgid "Darker"
+msgstr "Lebih Gelap"
+
+#: src/preferences-dialog.vala:120
+msgid "Lighter"
+msgstr "Lebih Terang"
+
+#: src/preferences-dialog.vala:128
+msgid "Less"
+msgstr "Kurang"
+
+#: src/preferences-dialog.vala:130
+msgid "More"
+msgstr "Lebih"
+
+#. Preferences dialog: Label for default resolution in resolution list
+#: src/preferences-dialog.vala:442
+#, c-format
+msgid "%d dpi (default)"
+msgstr "%d dpi (default)"
+
+#. Preferences dialog: Label for minimum resolution in resolution list
+#: src/preferences-dialog.vala:445
+#, c-format
+msgid "%d dpi (draft)"
+msgstr "%d dpi (draft)"
+
+#. Preferences dialog: Label for maximum resolution in resolution list
+#: src/preferences-dialog.vala:448
+#, c-format
+msgid "%d dpi (high resolution)"
+msgstr "%d dpi (resolusi tinggi)"
+
+#. Preferences dialog: Label for resolution value in resolution list (dpi = dots per inch)
+#: src/preferences-dialog.vala:451
+#, c-format
+msgid "%d dpi"
+msgstr "%d dpi"
+
+#. Error displayed when no scanners to scan with
+#: src/scanner.vala:844
+msgid "No scanners available.  Please connect a scanner."
+msgstr "Tidak ada pemindai yang tersedia. Mohon hubungkan pemindai."
+
+#. Error displayed when cannot connect to scanner
+#: src/scanner.vala:874
+msgid "Unable to connect to scanner"
+msgstr "Tak dapat terhubung ke pemindai"
+
+#. Error display when unable to start scan
+#: src/scanner.vala:1227
+msgid "Unable to start scan"
+msgstr "Tak dapat memulai pemindaian"
+
+#. Error displayed when communication with scanner broken
+#: src/scanner.vala:1240 src/scanner.vala:1347
+msgid "Error communicating with scanner"
+msgstr "Galat saat berhubungan dengan pemindai"
+
+#. Help string for command line --version flag
+#: src/simple-scan.vala:21
+msgid "Show release version"
+msgstr "Tampilkan versi rilis"
+
+#. Help string for command line --debug flag
+#: src/simple-scan.vala:24
+msgid "Print debugging messages"
+msgstr "Cetak pesan pengawakutuan"
+
+#: src/simple-scan.vala:26
+msgid "Fix PDF files generated with older versions of Simple Scan"
+msgstr "Perbaiki berkas PDF yang dibuat dengan Simple Scan versi lawas"
+
+#. Title of error dialog when scan failed
+#: src/simple-scan.vala:392
+msgid "Failed to scan"
+msgstr "Gagal memindai"
+
+#. Attempt to inhibit the screensaver when scanning
+#: src/simple-scan.vala:407
+msgid "Scan in progress"
+msgstr "Pemindaian sedang berlangsung"
+
+#. Arguments and description for --help text
+#: src/simple-scan.vala:584
+msgid "[DEVICE…] — Scanning utility"
+msgstr "[PERANGKAT...] — Utilitas pemindaian"
+
+#. Text printed out when an unknown command-line argument provided
+#: src/simple-scan.vala:595
+#, c-format
+msgid "Run “%s --help” to see a full list of available command line options."
+msgstr ""
+"Jalankan \"%s --help\" untuk melihat daftar lengkap opsi yang tersedia."
