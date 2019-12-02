@@ -1,0 +1,726 @@
+Description: <short summary of the patch>
+ TODO: Put a short summary on the line above and replace this paragraph
+ with a longer explanation of this change. Complete the meta-information
+ with other relevant fields (see below for details). To make it easier, the
+ information below has been extracted from the changelog. Adjust it or drop
+ it.
+ .
+ simple-scan (3.30.1.1-1) unstable; urgency=medium
+ .
+   * New upstream release.
+Author: Jörg Frings-Fürst <debian@jff.email>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: 2019-12-02
+
+--- simple-scan-3.30.1.1.orig/help/C/adf.page
++++ simple-scan-3.30.1.1/help/C/adf.page
+@@ -1,29 +1,29 @@
+-<page xmlns="http://projectmallard.org/1.0/"
+-      type="guide"
+-      id="adf">
++<?xml version="1.0" encoding="utf-8"?>
++<page xmlns="http://projectmallard.org/1.0/" type="guide" id="adf" xml:lang="zh-CN">
+ 
+     <info>
+         <link type="guide" xref="index#acquire"/>
+     </info>
+ 
+-	<title>Using an Automatic Document Feeder</title>
++	<title>使用自动送纸器</title>
+ 
+     <p>
+-    If your scanner features an Automatic Document Feeder (ADF) 
+-    you can scan all the pages from the feeder via one of following methods:
++    如果扫描易具有自动文档进纸器（ADF） 
++    你可以通过以下方式之一扫描进纸器中的所有页面
+     </p>
+       <steps>
+-	<title>Use a Keyboard Shortcut</title>
++	<title/>
++	<title>使用快捷键：</title>
+ 	<item>
+-	  <p>Press <keyseq><key>Ctrl</key><key>F</key></keyseq></p>
++	  <p>按 <keyseq><key>Ctrl</key><key>F</key></keyseq></p>
+ 	</item>      
+       </steps>
+       
+       <steps>
+-	<title>Use a Menu</title>
++	<title>使用菜单</title>
+ 	<item>
+-	  <p>Navigate to <guiseq><gui>Document</gui>
+-	  <gui>Scan</gui><gui>All Pages From Feeder</gui></guiseq>.
++	  <p>选中<guiseq><gui>文件</gui>
++	  <gui>扫描</gui><gui>传送来的所有页面</gui></guiseq>.
+ 	  </p>
+ 	</item>
+       </steps>
+@@ -31,10 +31,10 @@
+       <steps>
+ 	<title>Use the Toolbar Buttons</title>
+ 	<item>
+-	  <p>Click on the arrow to the right of the "Scan" button.</p>
++	  <p>点击扫描右边的小箭头</p>
+ 	</item>
+ 	<item>
+-	  <p>Choose "All Pages From Feeder".</p>
++	  <p>选择 "传送来的所有页面"。</p>
+ 	  <media type="image" src="figures/scan_toolbar.png"/>
+ 	</item>
+       </steps>
+@@ -42,8 +42,8 @@
+     
+     <note style="tip">
+     <p>
+-    By default, both sides of a sheet will scan if your scanner has this capability.
+-    You can choose single side scanning from the <guiseq><gui>Document</gui><gui>Preferences</gui></guiseq> menu.
++    默认情况下，如果扫描仪具有此功能，则工作表的两面都进行扫描。
++    你可以从 <guiseq><gui>"文档"</gui><gui>“首选项”</gui></guiseq> “菜单”选择单面扫描。
+     </p>
+     <media type="image" src="figures/preferences.png"/>
+     </note>
+--- simple-scan-3.30.1.1.orig/help/C/brightness-contrast.page
++++ simple-scan-3.30.1.1/help/C/brightness-contrast.page
+@@ -1,15 +1,14 @@
+-<page xmlns="http://projectmallard.org/1.0/"
+-      type="guide"
+-      id="brightness-contrast">
++<?xml version="1.0" encoding="utf-8"?>
++<page xmlns="http://projectmallard.org/1.0/" type="guide" id="brightness-contrast" xml:lang="zh-CN">
+ 
+     <info>
+         <link type="guide" xref="index#acquire"/>
+     </info>
+ 
+-	<title>Setting brightness and Contrast</title>
++	<title>设置亮度和对比度</title>
+ 
+     <p>
+-    Some scanners allow the user to adjust the brightness and contrast when scanning.
+-    If your scans come out too dark or too light you can adjust these settings from the <guiseq><gui>Document</gui><gui>Preferences</gui></guiseq> menu.
++    有些扫描仪允许用户在扫描时调整亮度和对比度。
++    如果扫描结果太暗或者太亮，可以从“文档首选项”菜单中调整这些设置。
+     </p>
+ </page>
+--- simple-scan-3.30.1.1.orig/help/C/crop.page
++++ simple-scan-3.30.1.1/help/C/crop.page
+@@ -1,45 +1,41 @@
+-<page xmlns="http://projectmallard.org/1.0/"
+-      type="guide"
+-      id="crop">
++<?xml version="1.0" encoding="utf-8"?>
++<page xmlns="http://projectmallard.org/1.0/" type="guide" id="crop" xml:lang="zh-CN">
+ 
+     <info>
+         <link type="guide" xref="index#modify"/>
+     </info>
+   
+-	<title>Cropping</title>
++	<title>裁切</title>
+ 
+     <p>
+-    The cropping feature in <app>Simple Scan</app> allows you to use only a part of a scanned image. You can
+-    enable crop either before or after scanning a page, and you can always change the dimensions of the crop
+-    frame. When crop is enabled, a mask will appear over the current page with the area not being used shown
+-    in gray. You can enable crop and choose the desired dimensions via one of the following methods:
++    简单扫描中的裁剪功能只允许使用扫描图像的一部分。您可以在扫描页面之前或之后启用裁
++    剪，并且始终可以更改裁剪框架的尺寸。启用裁剪后，将在当前页上显示一个掩码，其中未
++    使用的区域显示为灰色。可以通过以下方法之一启用裁剪并选择所需的尺寸：
+     </p>
+     
+     <steps>
+-      <title>Use a Right Click</title>
+-      <item><p>Right click anywhere on the image area and select "Crop".</p></item>
+-      <item><p>Choose one of the fixed crop frames, or select "Custom" to manually
+-	set the crop frame's dimensions by dragging its borders.</p></item>
+-      <item><p>Click and hold the frame, then move it to the desired position.</p></item>
++      <title>使用右键单击</title>
++      <item><p>在图像区域的任意位置单击鼠标右键，然后选择“裁剪”。</p></item>
++      <item><p>选择一个固定裁剪框，或选择“自定义”通过拖动裁剪框的边框手动设置裁剪框的尺寸。</p></item>
++      <item><p>单击并按住框架，然后将其移动到所需位置。</p></item>
+     </steps>
+     
+     <steps>
+-      <title>Use a Menu</title>
+-      <item><p>Navigate to the <guiseq><gui>Page</gui><gui>Crop</gui></guiseq> menu.</p></item>
+-      <item><p>Choose one of the fixed crop frames, or select "Custom" to manually adjust the frame's dimensions by dragging its borders.</p></item>
+-      <item><p>Click and hold the frame, then move it to the desired position.</p></item>
++      <title>使用菜单</title>
++      <item><p>导航到页面▸裁剪菜单。</p></item>
++      <item><p>选择一个固定裁剪边框，或选择“自定义”通过拖动边框手动调整边框的尺寸。</p></item>
++      <item><p>单击并按住框架，然后将其移动到所需位置。</p></item>
+     </steps>
+     
+     <steps>
+-      <title>Use the Toolbar</title>
+-      <item><p>Click the "<gui>Crop</gui>" button in the toolbar.</p>
+-	    <note style="tip"><p>This is the same as choosing "Custom" in step 2 of the
+-	      aforementioned methods.</p></note></item>      
+-      <item><p>Drag the borders of the frame to set the desired dimensions and position.</p></item>
++      <title>使用工具栏</title>
++      <item><p>单击工具栏中的“裁剪”按钮。</p>
++	    <note style="tip"><p>这与在上述方法的步骤2中选择“Custom”相同。</p></note></item>      
++      <item><p>拖动框架的边框以设置所需的尺寸和位置。</p></item>
+ 
+     </steps>
+     
+     <note><p>
+-    Each new scanned page will use the previous crop.
++    每个新扫描的页面都将使用上一个裁剪。
+     </p></note>
+ </page>
+--- simple-scan-3.30.1.1.orig/help/C/dpi.page
++++ simple-scan-3.30.1.1/help/C/dpi.page
+@@ -1,57 +1,56 @@
+-<page xmlns="http://projectmallard.org/1.0/"
+-      type="guide"
+-      id="dpi">
++<?xml version="1.0" encoding="utf-8"?>
++<page xmlns="http://projectmallard.org/1.0/" type="guide" id="dpi" xml:lang="zh-CN">
+ 
+     <info>
+         <link type="guide" xref="index#acquire"/>
+     </info>
+   
+-	<title>Setting the Scan Resolution</title>
++	<title>设定扫描分辨率：</title>
+ 
+     <p>
+-    The default resolution for document type <gui><em>Text</em></gui> is 150 dpi (dots per inch)
+-    and for document type <gui><em>Photo</em></gui> is 300 dpi. You can change these settings
+-    from the <guiseq><gui>Document</gui><gui>Preferences</gui></guiseq> menu.
++    默认的分辨率 <gui><em>文本类型</em></gui> 为 150 像素 (每英寸点数)，
++    文档类型的分辨率 <gui><em>照片类型</em></gui> 为 300 像素。 你可以从以下类型中
++    选择 <guiseq><gui>文档</gui><gui>首选项</gui></guiseq> 菜单。
+     </p>
+     <media type="image" src="figures/preferences.png"/>
+     
+-    <p>The available scanning resolutions for both document types (Text and Photo) are the same
+-    and are listed in the following table:</p>
++    <p>两种文档类型（文本和照片）的可用分辨率想同
++       如下图所示：</p>
+     
+     <table frame="bottom left right" rules="rows cols" shade="rows">
+ 	<tr>
+-		<td><p><em>Text Resolution</em></p></td>
+-		<td><p><em>Photo Resolution</em></p></td>
++		<td><p><em>文本分辨率</em></p></td>
++		<td><p><em>照片分辨率</em></p></td>
+ 	</tr>
+ 	<tr>
+-		<td><p>75 dpi (draft)</p></td>
+-		<td><p>75 dpi (draft)</p></td>
++		<td><p>75 像素 (草稿)</p></td>
++		<td><p>75 像素 (草稿)</p></td>
+ 	</tr>
+ 	<tr>
+-		<td><p>150 dpi (default)</p></td>
+-		<td><p>150 dpi</p></td>
++		<td><p>150 像素 (默认)</p></td>
++		<td><p>150 像素</p></td>
+ 	</tr>
+ 	<tr>
+-		<td><p>300 dpi</p></td>
+-		<td><p>300 dpi (default)</p></td>
++		<td><p>300 像素</p></td>
++		<td><p>300 像素 (默认)</p></td>
+ 	</tr>
+ 	<tr>
+-		<td><p>600 dpi</p></td>
+-		<td><p>600 dpi</p></td>
++		<td><p>600 像素</p></td>
++		<td><p>600 像素</p></td>
+ 	</tr>
+ 	<tr>
+-		<td><p>1200 dpi (high resolution)</p></td>
+-		<td><p>1200 dpi (high resolution)</p></td>
++		<td><p>1200 像素 (高分辨率)</p></td>
++		<td><p>1200 像素 (高分辨率)</p></td>
+ 	</tr>
+ 	<tr>
+-		<td><p>2400 dpi</p></td>
+-		<td><p>2400 dpi</p></td>
++		<td><p>2400 像素</p></td>
++		<td><p>2400 像素</p></td>
+ 	</tr>
+     </table>
+     
+-    <note style="important"><p><gui><em>Text</em></gui> documents are always scanned in black
+-      and white, while <gui><em>Photo</em></gui> documents are always scanned in color, at any
+-      resolution!</p>
++    <note style="important"><p><gui><em>文本类型</em></gui> 文档总是用黑白方式
++      扫描, 而 <gui><em>照片</em></gui> 文档总是用彩色扫描, 在任何类型的
++      分辨率!</p>
+     </note>
+ 
+ </page>
+--- simple-scan-3.30.1.1.orig/help/C/email.page
++++ simple-scan-3.30.1.1/help/C/email.page
+@@ -1,24 +1,21 @@
+-<page xmlns="http://projectmallard.org/1.0/"
+-      type="guide"
+-      id="email">
++<?xml version="1.0" encoding="utf-8"?>
++<page xmlns="http://projectmallard.org/1.0/" type="guide" id="email" xml:lang="zh-CN">
+ 
+     <info>
+         <link type="guide" xref="index#use"/>
+     </info>
+   
+-	<title>Sending via Email</title>
++	<title>发送邮件：</title>
+ 
+     <p>
+-    To email the current document use the <guiseq><gui>Document</gui><gui>Email</gui></guiseq>
+-    menu (<keyseq><key>Ctrl</key><key>E</key></keyseq>). Your email program will be opened with
+-    a new message containing the scanned document as an attachment.
++    要通过电子邮件发送当前文档， 请使用 <guiseq><gui>文档</gui><gui>电子邮件</gui></guiseq>
++    菜单 (<keyseq><key>Ctrl</key><key>E</key></keyseq>)。 你的电子邮件程序
++    将以包含扫描文档的新邮件作为附件打开。
+     </p>
+     <p>
+-    If the document type was set to "Text" the email will have a PDF attachment for each page. 
+-    Conversely, if the document type was set to "Photo", the email will have a JPEG
+-    attachment for each page.    
+-    </p>
+-    <p>
+-    See <link xref="save"/> for more information about file formats.
++    如果文档类型设置为“文本” ，则电子邮件将为每个页面提供一个PDF附件。
++    相反, 如果电子邮件设置为 "照片", 则电子邮件的每个页面都有
++    一个JPEG附件。    
+     </p>
++    <p>有关文件格式的详细信息，请参见保存到文件。 <link xref="save"/>。</p>
+ </page>
+--- simple-scan-3.30.1.1.orig/help/C/index.page
++++ simple-scan-3.30.1.1/help/C/index.page
+@@ -1,6 +1,5 @@
+-<page xmlns="http://projectmallard.org/1.0/"
+-      type="guide"
+-      id="index">
++<?xml version="1.0" encoding="utf-8"?>
++<page xmlns="http://projectmallard.org/1.0/" type="guide" id="index" xml:lang="zh-CN">
+ 
+ 	<info>
+ 		<credit type="author">
+@@ -11,20 +10,24 @@
+ 			<name>Ali Shtarbanov</name>
+ 			<email>ametedinov@gmail.com</email>
+ 		</credit>
+-		<include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
++		<include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+ 	</info>
+ 
+ 	<title><media type="image" src="figures/icon.png"/> Simple Scan Manual</title>
+     
+     <section id="acquire" style="2column">
+-        <title>Scanning Pages</title>
++        <title>扫描页面</title>
+     </section>
+ 
+     <section id="modify" style="2column">
+-        <title>Modifying the Document</title>
++        <title>修改文字</title>
+     </section>
+ 
+     <section id="use" style="2column">
+-        <title>Using the Document</title>
++        <title>使用文件</title>
++    </section>
++
++    <section id="shortcuts" style="2column">
++	<title>Simple Scan Shortcuts</title>
+     </section>
+ </page>
+--- simple-scan-3.30.1.1.orig/help/C/legal.xml
++++ simple-scan-3.30.1.1/help/C/legal.xml
+@@ -1,5 +1,5 @@
+-<license xmlns="http://projectmallard.org/1.0/"
+-         href="http://creativecommons.org/licenses/by-sa/3.0/">
++<?xml version="1.0" encoding="utf-8"?>
++<license xmlns="http://projectmallard.org/1.0/" href="http://creativecommons.org/licenses/by-sa/3.0/">
+ <p>This work is licensed under a
+ <link href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons
+ Attribution-Share Alike 3.0 Unported License</link>.</p>
+--- simple-scan-3.30.1.1.orig/help/C/print.page
++++ simple-scan-3.30.1.1/help/C/print.page
+@@ -1,29 +1,28 @@
+-<page xmlns="http://projectmallard.org/1.0/"
+-      type="guide"
+-      id="print">
++<?xml version="1.0" encoding="utf-8"?>
++<page xmlns="http://projectmallard.org/1.0/" type="guide" id="print" xml:lang="zh-CN">
+ 
+     <info>
+         <link type="guide" xref="index#use"/>
+     </info>
+   
+-	<title>Printing</title>
++	<title>打印</title>
+ 
+     <p>
+-    <app>Simple Scan</app> allows you print a scanned document directly from the its
+-    interface, without having to save the document first. This feature makes <app>Simple
+-    Scan</app> a very convenient tool for making copies of documents or photos. 
++    <app>扫描易</app> 允许您直接从its界面打印扫描的文档，
++    而无需先保存文档。此功能使 <app>扫描
++    易</app> 成为制作文档或照片副本的非常方便的工具。
+     </p>
+     <steps>
+-      <title>To Print a Document</title>
++      <title>打印文档</title>
+       <item>
+-	<p>Go to the <guiseq><gui>Document</gui><gui>Print</gui>
+-	</guiseq> menu or use the keyboard shortcut <keyseq><key>Ctrl</key><key>P</key></keyseq>.
+-	This will open the "Print" dialog box.
++	<p>1.转到<guiseq><gui>文档</gui><gui>打印</gui>
++	</guiseq> 菜单 或 使用键盘快捷键 <keyseq><key>Ctrl</key><key>P</key></keyseq>.
++	这将打开“打印”对话框。
+ 	</p>
+       </item>
+       <item>
+-	<p>From the "Print" dialog box choose your desired printing settings and/or Print Preview
+-	the document, then press the "Print" button.
++	<p>2.从“打印”对话框中选择所需的打印设置和/或打印预览文档，
++	然后按“打印”按钮。
+ 	</p>
+       </item>
+      </steps>
+--- simple-scan-3.30.1.1.orig/help/C/quality.page
++++ simple-scan-3.30.1.1/help/C/quality.page
+@@ -1,17 +1,16 @@
+-<page xmlns="http://projectmallard.org/1.0/"
+-      type="guide"
+-      id="quality">
++<?xml version="1.0" encoding="utf-8"?>
++<page xmlns="http://projectmallard.org/1.0/" type="guide" id="quality" xml:lang="zh-CN">
+ 
+     <info>
+         <link type="guide" xref="index#use"/>
+     </info>
+ 
+-	<title>Setting the Image Quality</title>
++	<title>设置图像质量：</title>
+ 
+     <p>
+-    You can adjust the image quality that is used when the scan is converted to a file by changing this setting in the save dialog.
+-    Using a low quality will result in a small file size but may show some blurring or blockiness in the image.
+-    A high quality will keep all the scanned information but require a larger file size.
+-    See the <link href="https://en.wikipedia.org/wiki/Lossy_compression">Lossy compression Wikipedia page</link> for more information.
++    通过在“文档首选项”菜单中更改此设置，可以调整扫描转换为文件时使用的图像质量。使
++    用低质量将导致较小的文件大小，但可能会在图像中显示一些模糊或阻塞。高质量将保留所
++    有扫描的信息，但需要较大的文件大小。有关详细信息，请参阅有损压缩维基百科页面。
++    请看以下链接 <link href="https://en.wikipedia.org/wiki/Lossy_compression">Lossy compression Wikipedia page</link> 以获取更过信息。
+     </p>    
+ </page>
+--- simple-scan-3.30.1.1.orig/help/C/reorder.page
++++ simple-scan-3.30.1.1/help/C/reorder.page
+@@ -1,21 +1,20 @@
+-<page xmlns="http://projectmallard.org/1.0/"
+-      type="guide"
+-      id="reorder">
++<?xml version="1.0" encoding="utf-8"?>
++<page xmlns="http://projectmallard.org/1.0/" type="guide" id="reorder" xml:lang="zh-CN">
+ 
+     <info>
+         <link type="guide" xref="index#modify"/>
+     </info>
+   
+-	<title>Reordering Pages</title>
++	<title>重新排序页面</title>
+ 
+     <p>
+-    To move a page, right click on it and choose <gui><em>Move Left</em></gui> or 
+-    <gui><em>Move Right</em></gui>.
++    若要移动页面，请右键单击该页面，然后选择 <gui><em>“向左移动”</em></gui> 或者 
++    <gui><em>“向右移动”</em></gui>。
+     </p> 
+     
+     <p>
+-    Alternatively, you can move a page by first selecting it and then choosing 
+-    <gui><em>Move Left</em></gui> or <gui><em>Move Right</em></gui> from the "Page" menu.
++    或者, 您可以先选择页面，然后从“页面”菜单中选择
++    <gui><em>“向左移动”</em></gui> 或者 <gui><em>“向右移动”</em></gui> 来移动页面。
+     </p> 
+ 
+ </page>
+--- simple-scan-3.30.1.1.orig/help/C/rotate.page
++++ simple-scan-3.30.1.1/help/C/rotate.page
+@@ -1,57 +1,57 @@
+-<page xmlns="http://projectmallard.org/1.0/"
+-      type="guide"
+-      id="rotate">
++<?xml version="1.0" encoding="utf-8"?>
++<page xmlns="http://projectmallard.org/1.0/" type="guide" id="rotate" xml:lang="zh-CN">
+ 
+     <info>
+         <link type="guide" xref="index#modify"/>
+     </info>
+   
+-	<title>Rotating a Page</title>
++	<title>旋转页面</title>
+ 
+     <p>
+-    In <app>Simple Scan</app>, you can change the rotation of a page either before or after scanning the page.
+-    Currently, there are four ways to rotate a page: 
++    在 <app>扫描易</app>中，可以在扫描页面之前或之后更改页面的旋转。目前，有四种方法可以
++    旋转页面：
++    使用工具栏按钮 
+     </p>
+     
+     <steps>
+-      <title>Use Toolbar Buttons</title>
+-      <item><p>Select the page you want to rotate by clicking on it once.</p></item>
+-      <item><p>Press one of the arrows on the toolbar to rotate the page in the desired direction.</p></item>
++      <title>使用工具栏按钮</title>
++      <item><p>单击一次选择要旋转的页面。</p></item>
++      <item><p>按工具栏上的箭头之一可按所需方向旋转页面。</p></item>
+     </steps>
+     <steps>
+-      <title>Use Right Click</title>
+-      <item><p>Right click on the page you want to rotate.</p></item>
+-      <item><p>From the context menu choose "Rotate Left" or "Rotate Right".</p></item>
++      <title>使用右键单击</title>
++      <item><p>右键单击要旋转的页面。</p></item>
++      <item><p>从关联菜单中选择“向左旋转”或“向右旋转”。</p></item>
+     </steps>
+     
+     <steps>
+-      <title>Use a Menu</title>
+-      <item><p>Select the page you want to rotate by clicking on it once.</p></item>
+-      <item><p>Click the "Page" menu and select "Rotate Left" or "Rotate Right".</p></item>
++      <title>使用菜单</title>
++      <item><p>单击一次选择要旋转的页面。</p></item>
++      <item><p>单击“页面“菜单并选择”向左旋转”或“向右旋转“。</p></item>
+     </steps>
+     
+     <steps>
+-      <title>Use Shortcuts</title>
+-      <item><p>Select the page you want to rotate by clicking on it once.</p></item>
+-      <item><p>Press one of the following shortcut keys:</p>
++      <title>使用快捷方式</title>
++      <item><p>单击一次选择要旋转的页面。</p></item>
++      <item><p>按下列快捷键之一：</p>
+ 	<table frame="bottom left right" rules="rows cols" shade="rows">
+ 	<tr>
+-		<td><p><em>Command</em></p></td>
+-		<td><p><em>Shortcut Key</em></p></td>
++		<td><p><em>命令</em></p></td>
++		<td><p><em>快捷键</em></p></td>
+ 	</tr>
+ 	<tr>
+-		<td><p>Rotate Left</p></td>
+-		<td><p><key>[</key> (left bracket)</p></td>
++		<td><p>向左旋转</p></td>
++		<td><p><key>[</key> (左括号)</p></td>
+ 	</tr>
+ 	<tr>
+-		<td><p>Rotate Right</p></td>
+-		<td><p><key>]</key> (right bracket)</p></td>
++		<td><p>向右旋转</p></td>
++		<td><p><key>]</key> (右括号)</p></td>
+ 	</tr>
+ 	</table>
+       </item>
+     </steps>
+     
+     <note><p>
+-    Each new scanned page will use the previous rotation.
++    每个新扫描的页面将使用以前的轮换。
+     </p></note>
+ </page>
+--- simple-scan-3.30.1.1.orig/help/C/save.page
++++ simple-scan-3.30.1.1/help/C/save.page
+@@ -1,68 +1,65 @@
+-<page xmlns="http://projectmallard.org/1.0/"
+-      type="guide"
+-      id="save">
++<?xml version="1.0" encoding="utf-8"?>
++<page xmlns="http://projectmallard.org/1.0/" type="guide" id="save" xml:lang="zh-CN">
+ 
+     <info>
+         <link type="guide" xref="index#use"/>
+     </info>
+   
+-	<title>Saving to a File</title>
++	<title>以文件方式保存：</title>
+ 
+     <steps>
+       <item>
+-	<p>Navigate to the <guiseq><gui>Document</gui><gui>Save As</gui></guiseq> menu 
+-	(or press <keyseq><key>Shift</key><key>Ctrl</key><key>S</key></keyseq>).
++	<p>导航到文档▸另存为菜单（或按Shift+Ctrl+S）。
+ 	</p>
+       </item>
+       <item>
+-	<p>From the "Save As" dialog box, choose one of the supported file
+-	types, or simply change the extension in the "Name" field. 
++	<p>从“另存为”对话框中，选择支持的文件类型之一，或者只需在“名称”字段中更改扩展名。
+ 	</p>
+       </item>
+       <item>
+-	<p>Press the "Save" button.</p>
++	<p>按“保存”按钮。</p>
+       </item>
+     </steps>
+     
+     
+ <table frame="bottom left right top" rules="rows cols" shade="rows">
+-	<title>Supported File Types</title>
++	<title>支持的文件类型</title>
+ 	<tr>
+-		<td><p><em>Type</em></p></td>
+-		<td><p><em>Brief Description</em></p></td>
++		<td><p><em>类型</em></p></td>
++		<td><p><em>简要说明</em></p></td>
+ 	</tr>
+ 	<tr>
+-		<td><p>PDF</p></td>
+-		<td><p>A PDF can contain multiple pages, like a book, and is easy to distribute. Only a small number
+-		of linux programs can modify PDF documents, so this format is recommended primarily for archiving.
+-        The size of the PDF document is affected by the <link xref="quality">image quality</link>.
+-		See the <link href="http://en.wikipedia.org/wiki/pdf">PDF Wikipedia page</link> for more information.
++		<td><p>PDF格式</p></td>
++		<td><p>一个PDF文件可以包含多个页面，就像一本书，并且易于分
++		发。只有少数linux程序可以修改PDF文档，因此建议主要
++                将此格式用于存档。PDF文档的大小受图像质量的影响。有
++		关详细信息，请参阅PDF维基百科页面。
+ 		    </p></td>
+ 	</tr>
+ 	<tr>
+-		<td><p>JPEG</p></td>
+-		<td><p>JPEG is the file format used by digital cameras to save pictures. A JPEG file is relatively
+-		small, very easy to distribute, and suitable for uploading to social networking sites. Most operating
+-		systems come with a JPEG editor by default. If you have scanned multiple pages, a JPEG file will be
+-		created for each page. Use this file type if you want to modify or upload the scanned images.
+-        The size of the JPEG file is affected by the <link xref="quality">image quality</link>.
+-		See the <link href="http://en.wikipedia.org/wiki/jpeg">JPEG Wikipedia page</link> for more information.
++		<td><p>JPEG格式</p></td>
++		<td><p>JPEG是数码相机用来保存图片的文件格式。JPEG文件相对
++		较小，非常容易分发，并且适合上传到社交网站。默认情况下，
++		大多数操作系统都带有JPEG编辑器。如果您扫描了多个页
++		面，将为每个页面创建一个JPEG文件。如果要修改或上载扫
++                描的图像，请使用此文件类型。JPEG文件的大小受图像质量
++		的影响。有关详细信息，请参见JPEG Wikipedia页面。
+ 		    </p></td>
+ 	</tr>
+ 	<tr>
+-		<td><p>PNG</p></td>
+-		<td><p>PNG files contain the raw data from the scanner. This makes them very large and not suitable
+-		for distributing. If you have scanned multiple pages, a PNG file will be created for each page.
+-		See the <link href="http://en.wikipedia.org/wiki/Portable_Network_Graphics">PNG Wikipedia page</link>
+-		for more information.
++		<td><p>PNG格式</p></td>
++		<td><p>PNG文件包含来自扫描仪的原始数据。这使得它们非常大，
++		不适合分发。如果您扫描了多个页面，将为每个页面创建一个
++		看如下连接 <link href="http://en.wikipedia.org/wiki/Portable_Network_Graphics">PNG维基百科页面。</link>
++		看相关详细信息。
+ 		    </p></td>
+ 	</tr>
+ 	<tr>
+-		<td><p>TIFF</p></td>
+-		<td><p>TIFF files contain the raw data from the scanner. This makes them very large and not suitable
+-		for distributing. If you have scanned multipe pages, a TIFF file will be created for each page.
+-		See the <link href="http://en.wikipedia.org/wiki/Tagged_Image_File_Format">TIFF Wikipedia page</link>
+-		for more information.
++		<td><p>TIFF格式</p></td>
++		<td><p>TIFF文件包含来自扫描仪的原始数据。这使得它们非常大，
++		不适合分发。如果您扫描了多个页面，将为每个页面创建一个
++		看连接 <link href="http://en.wikipedia.org/wiki/Tagged_Image_File_Format">维基相关页面</link>
++		获取更多信息。
+ 		    </p></td>
+ 	</tr>
+ 
+--- simple-scan-3.30.1.1.orig/help/C/scanner.page
++++ simple-scan-3.30.1.1/help/C/scanner.page
+@@ -1,20 +1,19 @@
+-<page xmlns="http://projectmallard.org/1.0/"
+-      type="guide"
+-      id="scanner">
++<?xml version="1.0" encoding="utf-8"?>
++<page xmlns="http://projectmallard.org/1.0/" type="guide" id="scanner" xml:lang="zh-CN">
+ 
+     <info>
+         <link type="guide" xref="index#acquire"/>
+     </info>
+   
+-	<title>Selecting a Scanner</title>
++	<title>选择扫描仪：</title>
+ 
+     <p>
+-    If you have multiple scanning devices you can change the selected device from the <guiseq><gui>Document</gui><gui>Preferences</gui></guiseq> menu.
++    如果你有多个扫描仪，则可以通过以下步骤更换所选设备：<guiseq><gui>文件</gui><gui>首选项</gui></guiseq> 从菜单中。
+     </p>
+     <media type="image" src="figures/preferences.png"/>
+     <p>
+-    Your local scanners are automatically detected each time you start <app>Simple Scan</app>
+-    and each time you plug in a USB scanner. If you connect a network scanner while <app>Simple Scan</app>
+-    is running, you will need to restart <app>Simple Scan</app> for the scanner to be detected.
++    每次启动简单扫描和每次插入USB扫描仪时，
++    都会自动检测到本地扫描仪。 如果在运行简单扫描时连接网络扫描仪
++    则需要重新启动简单扫描才能检测到扫描仪。
+     </p>
+ </page>
+--- simple-scan-3.30.1.1.orig/help/C/scanning.page
++++ simple-scan-3.30.1.1/help/C/scanning.page
+@@ -1,35 +1,34 @@
+-<page xmlns="http://projectmallard.org/1.0/"
+-      type="guide"
+-      id="scanning">
++<?xml version="1.0" encoding="utf-8"?>
++<page xmlns="http://projectmallard.org/1.0/" type="guide" id="scanning" xml:lang="zh-CN">
+ 
+     <info>
+         <title type="sort">0</title>
+         <link type="guide" xref="index#acquire"/>
+     </info>
+   
+-	<title>Scanning a Page</title>
++	<title>扫描页面</title>
+ 
+     <p>
+-    To scan a document from your scanner:
++    从扫描仪扫描一个文件:
+     </p>
+     <steps>
+-      <item><p>Connect the scanner to your computer and power it on.</p></item>
+-      <item><p>Open <app>Simple Scan</app>.</p></item>
+-      <item><p>Click the arrow to the right of the "Scan" button and choose the type
+-	     of document you are scanning: <em>Photo</em> or <em>Text</em>.</p>
++      <item><p>连接扫描仪到你的电脑并打开扫描易电源</p></item>
++      <item><p>打开<app>扫描易</app>。</p></item>
++      <item><p>鼠标单击”扫描“右边的下拉菜单按钮并选择你要扫描的文件类型：
++	      <em>照片</em> 或者 <em>文本</em>。</p>
+ 	     <media type="image" src="figures/scan_toolbar.png"/></item>
+-      <item><p>Click the "Scan" button on the toolbar (or press <keyseq><key>Ctrl</key><key>1</key></keyseq>).</p></item>
++      <item><p>单击”扫描“按钮 (或者按 <keyseq><key>Ctrl</key><key>1</key></keyseq>)。</p></item>
+     </steps>
+ 
+     <note><p>
+-    The page will be shown as it is scanned. To stop the scan at any time press the <key>Esc</key>
+-    key on the keyboard. Each page you scan is placed at the end of the document.
++    页面将在扫描时显示。要随时停止扫描，请按键盘上的 <key>Esc</key>
++    键。 扫描的每一页都放在文档的末尾。
+     </p></note>
+ 
+     <p>
+-      The document type can be also be changed from the <guiseq><gui>Document</gui>
+-      <gui>Scan</gui></guiseq> menu. Choose <gui><em>Text</em></gui> if you want the document
+-      to be quickly scanned in black and white; choose <gui><em>Photo</em></gui> for a high 
+-      resolution color scan. See <link xref="dpi"/> for more details and more options.
++      菜单更改文档类型如果要快速扫描黑白文档<guiseq><gui>文档</gui>
++      <gui>扫描</gui></guiseq> 菜单。 选择 <gui><em>文本</em></gui> 更改文档类型
++      如果要快速扫描黑白文档。 选择<gui><em>照片</em></gui> 进行高分辨率
++      彩色扫描。 请参见设置 <link xref="扫描分辨率"/> 获取更多的详细信息和选项。
+     </p>
+ </page>
