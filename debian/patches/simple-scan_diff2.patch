@@ -1,0 +1,166 @@
+diff --git a/help/C/adf.page b/help/C/adf.page
+index 71196c1..58cd9c3 100644
+--- a/help/C/adf.page
++++ b/help/C/adf.page
+@@ -29,7 +29,7 @@
+       </steps>
+       
+       <steps>
+-	<title>Use the Toolbar Buttons</title>
++	<title>使用工具栏按钮</title>
+ 	<item>
+ 	  <p>点击扫描右边的小箭头</p>
+ 	</item>
+diff --git a/help/C/crop.page b/help/C/crop.page
+index e014f1e..0f958a3 100644
+--- a/help/C/crop.page
++++ b/help/C/crop.page
+@@ -30,7 +30,7 @@
+     <steps>
+       <title>使用工具栏</title>
+       <item><p>单击工具栏中的“裁剪”按钮。</p>
+-	    <note style="tip"><p>这与在上述方法的步骤2中选择“Custom”相同。</p></note></item>      
++	    <note style="tip"><p>这与在上述方法的步骤2中选择“自定义”相同。</p></note></item>      
+       <item><p>拖动框架的边框以设置所需的尺寸和位置。</p></item>
+ 
+     </steps>
+diff --git a/help/C/dpi.page b/help/C/dpi.page
+index a49e913..c8af5df 100644
+--- a/help/C/dpi.page
++++ b/help/C/dpi.page
+@@ -5,7 +5,7 @@
+         <link type="guide" xref="index#acquire"/>
+     </info>
+   
+-	<title>设定扫描分辨率：</title>
++	<title>设定扫描分辨率</title>
+ 
+     <p>
+     默认的分辨率 <gui><em>文本类型</em></gui> 为 150 像素 (每英寸点数)，
+diff --git a/help/C/email.page b/help/C/email.page
+index 8f9ad38..4969d1f 100644
+--- a/help/C/email.page
++++ b/help/C/email.page
+@@ -5,7 +5,7 @@
+         <link type="guide" xref="index#use"/>
+     </info>
+   
+-	<title>发送邮件：</title>
++	<title>发送邮件</title>
+ 
+     <p>
+     要通过电子邮件发送当前文档， 请使用 <guiseq><gui>文档</gui><gui>电子邮件</gui></guiseq>
+diff --git a/help/C/index.page b/help/C/index.page
+index d8bea94..3489b07 100644
+--- a/help/C/index.page
++++ b/help/C/index.page
+@@ -13,7 +13,7 @@
+ 		<include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+ 	</info>
+ 
+-	<title><media type="image" src="figures/icon.png"/> Simple Scan Manual</title>
++	<title><media type="image" src="figures/icon.png"/> 扫描易帮助手册</title>
+     
+     <section id="acquire" style="2column">
+         <title>扫描页面</title>
+@@ -28,6 +28,6 @@
+     </section>
+ 
+     <section id="shortcuts" style="2column">
+-	<title>Simple Scan Shortcuts</title>
++	<title>扫描易快捷方式</title>
+     </section>
+ </page>
+diff --git a/help/C/legal.xml b/help/C/legal.xml
+index 46a7e88..c6066c3 100644
+--- a/help/C/legal.xml
++++ b/help/C/legal.xml
+@@ -1,9 +1,9 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <license xmlns="http://projectmallard.org/1.0/" href="http://creativecommons.org/licenses/by-sa/3.0/">
+-<p>This work is licensed under a
++<p>这个工具遵循以下许可
+ <link href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons
+ Attribution-Share Alike 3.0 Unported License</link>.</p>
+-<p>As a special exception, the copyright holders give you permission to copy,
+-modify, and distribute the example code contained in this document under the
+-terms of your choosing, without restriction.</p>
++<p>作为特例, 版权所有者允许您按照您选择的条款复制，
++修改， 发本文档中包含的示例代码，
++而不受限制。</p>
+ </license>
+diff --git a/help/C/quality.page b/help/C/quality.page
+index 40df2c0..896e47e 100644
+--- a/help/C/quality.page
++++ b/help/C/quality.page
+@@ -5,7 +5,7 @@
+         <link type="guide" xref="index#use"/>
+     </info>
+ 
+-	<title>设置图像质量：</title>
++	<title>设置图像质量</title>
+ 
+     <p>
+     通过在“文档首选项”菜单中更改此设置，可以调整扫描转换为文件时使用的图像质量。使
+diff --git a/help/C/rotate.page b/help/C/rotate.page
+index 80b6191..0a4367c 100644
+--- a/help/C/rotate.page
++++ b/help/C/rotate.page
+@@ -27,7 +27,7 @@
+     <steps>
+       <title>使用菜单</title>
+       <item><p>单击一次选择要旋转的页面。</p></item>
+-      <item><p>单击“页面“菜单并选择”向左旋转”或“向右旋转“。</p></item>
++      <item><p>单击"页面"菜单并选择"向左旋转"或"向右旋转"。</p></item>
+     </steps>
+     
+     <steps>
+diff --git a/help/C/save.page b/help/C/save.page
+index 4ec9512..2990181 100644
+--- a/help/C/save.page
++++ b/help/C/save.page
+@@ -5,7 +5,7 @@
+         <link type="guide" xref="index#use"/>
+     </info>
+   
+-	<title>以文件方式保存：</title>
++	<title>以文件方式保存</title>
+ 
+     <steps>
+       <item>
+diff --git a/help/C/scanner.page b/help/C/scanner.page
+index 2e794be..51e493d 100644
+--- a/help/C/scanner.page
++++ b/help/C/scanner.page
+@@ -5,7 +5,7 @@
+         <link type="guide" xref="index#acquire"/>
+     </info>
+   
+-	<title>选择扫描仪：</title>
++	<title>选择扫描仪</title>
+ 
+     <p>
+     如果你有多个扫描仪，则可以通过以下步骤更换所选设备：<guiseq><gui>文件</gui><gui>首选项</gui></guiseq> 从菜单中。
+diff --git a/help/C/scanning.page b/help/C/scanning.page
+index e9aefaf..09dc825 100644
+--- a/help/C/scanning.page
++++ b/help/C/scanning.page
+@@ -9,15 +9,15 @@
+ 	<title>扫描页面</title>
+ 
+     <p>
+-    从扫描仪扫描一个文件:
++    从扫描仪扫描一个文件
+     </p>
+     <steps>
+       <item><p>连接扫描仪到你的电脑并打开扫描易电源</p></item>
+       <item><p>打开<app>扫描易</app>。</p></item>
+-      <item><p>鼠标单击”扫描“右边的下拉菜单按钮并选择你要扫描的文件类型：
++      <item><p>鼠标单击“扫描”右边的下拉菜单按钮并选择你要扫描的文件类型：
+ 	      <em>照片</em> 或者 <em>文本</em>。</p>
+ 	     <media type="image" src="figures/scan_toolbar.png"/></item>
+-      <item><p>单击”扫描“按钮 (或者按 <keyseq><key>Ctrl</key><key>1</key></keyseq>)。</p></item>
++      <item><p>单击“扫描”按钮 (或者按 <keyseq><key>Ctrl</key><key>1</key></keyseq>)。</p></item>
+     </steps>
+ 
+     <note><p>
