@@ -543,6 +543,12 @@ msgstr "关于扫描易"
 msgid "Simple document scanning tool"
 msgstr "简易的文件扫描工具"
 
+#. Text in dialog warning when a document is about to be lost
+#: src/app-window.vala:1283
+msgid "Simple Scan "
+msgstr "扫描易"
+
+
 #: src/app-window.vala:1286
 msgid "translator-credits"
 msgstr ""
