@@ -1289,7 +1289,7 @@ public class AppWindow : Gtk.ApplicationWindow
 
         Gtk.show_about_dialog (this,
                                "title", title,
-                               "program-name", "Simple Scan ",
+                               "program-name", _("Simple Scan "),
                                "version", VERSION,
                                "comments", description,
                                "logo-icon-name", "scanner",
